@@ -45,3 +45,59 @@ KyrieViolinoII = {
     e e c e g16. g32 g16 g e4 r\fermata \bar "||" %39 finis
   }
 }
+
+ChristeViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoChriste
+      \set Score.currentBarNumber = #40
+    r8 c'\fE a16 g f e f8 d'
+    \appoggiatura d c4 c16 c f d h8.\trill a32 h
+    c8 c~ c16 c b a b b a g
+    a4 g r8 c16 d
+    e8 e e e d4~
+    d8 d16 c h4 c8 g %45
+    g c \tuplet 3/2 8 { c16[ d e] f e f } e8 d~
+    d16 e c8 c16 h c d c8 h
+    c c, \tuplet 3/2 8 { c16[ d e] f g a } b!8 a16 g
+    a g f8 r4 r
+    r8 f \tuplet 3/2 8 { f16[ g a] b c d } es8 d16 c %50
+    d c b8 r4 r
+    r8 b \tuplet 3/2 8 { b16[ c d] d e! f } g8 f
+    e c \tuplet 3/2 8 { c16[ d e] e f g } a8 g
+    f f~ f16 e f g f8 e
+    f4 r8 \tuplet 3/2 8 { f,16 g a } b b a g %55
+    f4 \once \slurDashed f( e)
+    f r r
+    R2.*9 %66
+    r8 g\fE \tuplet 3/2 8 { g16[ a h] c d e } f8 e16 d
+    e d c8 r4 r
+    r8 c \tuplet 3/2 8 { c16[ d e] f g a } b!8 a16 g
+    a8 c, \tuplet 3/2 8 { c16[ b c] a g a } f8 e %70
+    d e \once \slurDashed e4( d)
+    c r r
+    R2.*3 %75
+    r4 r8 a'\fE h cis
+    d4 r r
+    R2.*3 %80
+    r4 r8 f4\fE e8
+    f4 r r
+    R2.*5 %87
+    r8 c\fE a16 g f e f8 d'
+    \appoggiatura d c4~ c16 c f d h8.\trill a32 h
+    c8 \once \tieDashed c~ c16 c b a b b a g %90
+    a4 g r8 c16 d
+    e8[ e e e] a,8. a16
+    d8 d16 c d8 h c g
+    g c, \tuplet 3/2 8 { c16[ d e] f g a } b8 a16 g
+    a g f8 r c d e %95
+    f f \tuplet 3/2 8 { f16[ g a] b c d } es8 d16 c
+    d c b8 r f g a
+    b d \tuplet 3/2 8 { d16[ c d] b a b } g8 f
+    e! e' \tuplet 3/2 8 { e16[ d e] c b c } a8 g
+    f f' \once \slurDashed f4( e) %100
+    f8 a, \tuplet 3/2 8 { a16[ g a] f e f } g8 f
+    e f f4( e)
+    f r r\fermata \bar "|." %103 finis
+  }
+}

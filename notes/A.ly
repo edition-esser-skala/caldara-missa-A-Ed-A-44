@@ -85,3 +85,67 @@ KyrieAltoLyrics = \lyricmode {
   son, e -- le -- i -- son, e -- le -- i --
   son, e -- lei -- son. %39 finis
 }
+
+ChristeAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoChriste
+      \set Score.currentBarNumber = #40
+    R2.*20 %59
+    r8 \mvTr f\pE^\solo e16([ d)] c([ h)] c8([ a')] %60
+    g4. c16([ a)] \appoggiatura g8 fis4
+    g4. f16([ e)] f8([ e16 d]
+    e[ d]) c8 r4 r
+    r8 c c16([ d e f] e8[ d)]
+    e8. f16 e4( d) %65
+    c r r
+    R2.*5 %71
+    r8 g' e16([ f)] g([ a)] b!8([ a16 g)]
+    a4 r r
+    r8 f f16([ g a b)] g4
+    r8 e! e16([ f g a] g8[ f16 e)] %75
+    f4 r r
+    r8 a f16([ a g f] b8[ a)]
+    g g e16([ g f e] a8[ g)]
+    f f d16([ f e d] g8[ f)]
+    e d16([ e)] f4.( e8) %80
+    f4 r r
+    r a2
+    g4 r8 g g g
+    f4 r8 f g f
+    e c16([ d]) e8[( f16 g] a8[ g)] %85
+    f d16([ e] f8[ g16 a)] b8([ a16 g)]
+    f8. f16 f4( e)
+    f r r
+    R2.*14 %102
+    R2.\fermata \bar "||" %103 finis
+  }
+}
+
+ChristeAltoLyrics = \lyricmode {
+  Chri -- ste e -- lei -- %60
+  son, e -- lei --
+  son, e -- lei --
+  son,
+  e -- lei --
+  son, e -- lei -- %65
+  son.
+
+  Chri -- ste e -- lei -- %72
+  son,
+  e -- lei -- son,
+  e -- lei -- %75
+  son,
+  e -- lei --
+  son, e -- lei --
+  son, e -- lei --
+  son, e -- lei -- %80
+  son,
+  Chri --
+  ste e -- le -- i --
+  son, e -- le -- i --
+  son, e -- lei -- %85
+  son, e -- lei --
+  son, e -- lei --
+  son. %88 finis
+}

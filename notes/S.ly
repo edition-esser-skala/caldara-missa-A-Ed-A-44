@@ -83,3 +83,69 @@ KyrieSopranoLyrics = \lyricmode {
   son, e -- le -- i -- son, e -- le -- i --
   son, e -- le -- i -- son. %39 finis
 }
+
+ChristeSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoChriste
+      \set Score.currentBarNumber = #40
+    R2.*17 %56
+    r8 \mvTr c'\pE^\solo a16([ g)] f([ e)] f8([ d')]
+    c4. f16([ d)] \appoggiatura c8 h4^\critnote
+    c4. b16([ a)] b8([ a16 g]
+    a4) g r %60
+    R2.*2
+    r8 g g16([ a h c] a8[ g)]
+    a a a16([ h c d] c8[ h)]
+    c c c4( h) %65
+    c r r
+    R2.*6 %72
+    r8 c a16([ b!)] c([ d)] es8([ d16 c)]
+    d4 r8 d d16([ e f g)]
+    cis,4 r8 cis cis16([ e d cis)] %75
+    d4 r r
+    r f2
+    e4 r8 e e e
+    d4 r8 d d d
+    c4. b16([ a)] b8.([ c16)] %80
+    a4 r r
+    r8 c a16([ c b a] d8[ c)]
+    b b g16([ b a g] c8[ b)]
+    a a f16([ a g f] b8[ a)]
+    g e16([ f)] g8([ a16 b] c8[ b)] %85
+    a f16([ g] a8[ b16 c)] d8([ c16 b)]
+    a8. b16 a4( g)
+    f r r
+    R2.*14 %102
+    R2.\fermata \bar "||" %103 finis
+  }
+}
+
+ChristeSopranoLyrics = \lyricmode {
+  Chri -- ste e -- lei -- %57
+  son, e -- lei --
+  son, e -- lei --
+  son, %60
+
+  e -- lei -- %63
+  son, e -- lei --
+  son, e -- lei -- %65
+  son.
+
+  Chri -- ste e -- lei -- %73
+  son, e -- lei --
+  son, e -- lei -- %75
+  son,
+  Chri --
+  ste e -- le -- i --
+  son, e -- le -- i --
+  son, e -- lei -- %80
+  son,
+  e -- lei --
+  son, e -- lei --
+  son, e -- lei --
+  son, e -- lei -- %85
+  son, e -- lei --
+  son, e -- lei --
+  son. %88 finis
+}

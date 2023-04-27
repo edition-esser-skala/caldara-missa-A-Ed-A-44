@@ -87,3 +87,142 @@ KyrieBassFigures = \figuremode {
   \bo <[6 _]>4 <6 4>8 <5 3> r2
   r4 <6 4>8 \bc <[5 3]> r2 %39 finis
 }
+
+ChristeOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoChriste
+      \set Score.currentBarNumber = #40
+    \mvTr f,4\fE-\solo f'8 g a b
+    a a16 g a8 f4 g16 f
+    e8 e16 d c4 d8 e
+    f4 c r8 f
+    c' c16 h c8 c c d16 c
+    h8 h16 a g4 a8 h %45
+    c4 c, r8 g'
+    c4 a8 f g g,
+    c4 c8 a g c
+    f,4 r8 a g c
+    f,4 r8 d' c f %50
+    b,4 r8 d c f
+    b,4 r8 b' g a16 b
+    c4 r8 c a b16 c
+    d8 d16 c d8 b c c,
+    f4 r r %55
+    f8 d c b c c,
+    f4 f'8\pE g a b
+    a a16 g a8 f4 g16 f
+    e8 e16 d e8 c d e
+    f4 c8 d e f %60
+    e e16 d e8 c4 d16 c
+    h8 a16 h g4 a8 h
+    c4 r8 c f e
+    f4 r8 d g g,
+    c a' g f g g, %65
+    c4 r8 e\fE d g
+    c,4 r8 e d g
+    c,4 r8 a' g c
+    f,4 r8 a g c
+    f,4 r r %70
+    g8 c,16 f g8 f g g,
+    c4 c8\pE e16 f g8 e
+    f4 f8 a16 b c8 a
+    b4 b, e!
+    a a,4. a'8 %75
+    d,4 r8 f\fE e a
+    d,4 d'\pE d~
+    d c c~
+    c b b~
+    b a g8 c %80
+    f,4 r8 a\fE g c,
+    f4 f,\pE f'~
+    f e e~
+    e d8 b4 b8
+    c4 r c %85
+    d r d8 e
+    f d c b c c,
+    f4 f'8\fE g a b
+    a a16 g a8 f g f
+    e e16 d e8 c d e %90
+    f4 c r8 f
+    c' c16 h c8 c d c
+    h h16 a h8 g a h
+    c4 c8 a g c
+    f,4 r8 a g c, %95
+    f,4 r8 d' c f
+    b,4 r8 d c f
+    b,4 r r
+    c r r
+    d8 b c b c c, %100
+    f4 r b
+    c8 f,16 d' c8 b c c,
+    f4 r r\fermata \bar "||" %103 finis
+  }
+}
+
+ChristeBassFigures = \figuremode {
+  r2 <[6]>4 %40
+  <6>4. <[6]>8 <4!>4
+  <[6]>2 <6->4
+  r2.
+  r4. \bo <[6]>8 \bc <[4\+]>4
+  <6> <_!> \bc <[6!]> %45
+  r2 r8 <[7] _!>
+  \bo <[9 4]> \bc <[8 3]>4 \bo <[6]>8 <6 4> \bc <[5] _!>
+  r4. <6>8 <[_-]>4
+  r4. <6>
+  r4. <6>8 <_->4 %50
+  r4. <6>8 <_->4
+  r2 \bo <[10 8]>8 <8 6>
+  r2 <10 8>8 \bc <[8 6]>
+  r4. \bo <[6]>8 <6 4> \bc <[5] 3>
+  r2. %55
+  r4 \bo <[6 4]> <5 3>
+  r4. <6>8 q4
+  q4. \bc <[6 _]>8 <4!>4
+  <6>2 <6->4
+  r4. \bo <[6!]>8 <6>4 %60
+  q4. q8 <4\+>4
+  <6> <_!> <6!>
+  r2 r8 \bc <[6]>
+  r2 \bo <[6] 4>8 <5 _!>
+  r4 <6 4> \bc <[5] _!> %65
+  r4. \bo <[6]>4 \bc <[_!]>8
+  r4. <6>4 <_!>8
+  r4. <6>8 \bo <[_-]>4
+  r4. \bc <[6]>
+  r2. %70
+  \bo <[_!]>4 <6 4> \bc <[5] _!>
+  r2 \bo <[6 _-]>4
+  r2 \bc q4
+  r2.
+  <7 _+> %75
+  r4. \bo <[6]>8 \bc <[5!]> <_+>
+  r2 <6>8 <[5]>
+  <2>2 <6>8 <[5]>
+  <2>2 <6>8 <[5]>
+  <2>4 <6> <7>8 <[7]> %80
+  r4. \bo <[6]>8 <7> <7>
+  r2 <6>8 \bc <[5]>
+  <2>2 <6>8 \bo <[5]>
+  <2>2 <[8] 6>8 <7 5>
+  r2 \bo <[8 6]>8 \bc <[7 5]> %85
+  r2 <6>4
+  r8 q \bo <[6] 4>4 \bc <[5] 3>
+  r2 \bo <[6]>4
+  <6>4. \bc <[6]>8 <_!>4
+  <6>2 <6->4 %90
+  r2.
+  r4. <6>8 <_+>4
+  \bo <[6]> <_!> <6!>
+  r4. \bc <[6]>8 <_->4
+  r4. <[6]> %95
+  r <6>8 <[_-]>4
+  r4. <6>8 <[_-]>4
+  r2.
+  \bo <[_!]>
+  r4 <6 4> \bc <[5] 3> %100
+  r2 \bo <[8 6]>8 \bc <[7 5]>
+  r8. <6>16 \bo <[6 4]>4 \bc <[5 3]>
+  r2. %103 finis
+}
