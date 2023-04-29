@@ -485,3 +485,74 @@ GloriaBassFigures = \figuremode {
   r2.
   r %32 finis
 }
+
+LaudamusOrgano = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \tempoLaudamus
+      \set Score.currentBarNumber = #33
+    \mvTr a'4\fE-\solo a,8 f' e c16 h c8 a
+    r gis'16 fis e8 e, r c''16 h a8 h
+    gis a dis,4 e g8 a %35
+    h g16 fis e8 e, r dis'16 cis h8 h'
+    e,4 e' dis8 e a, gis
+    a e r4 e r8 e
+    a, f' e e, a4. f'8\pE
+    e c16 h a8 a'~ a gis16 fis e8 gis %40
+    a a, r f'\fE d4 e8 a
+    fis4\pE d8 fis g! e\fE c4
+    d8 g, r g'\pE c a fis4
+    h8 g e fis16 g a8 fis d d,
+    g g'16 a h8 a g4. h8 %45
+    c g a e f!8. e16 f8 d
+    g f e f16 g a4 g8 f
+    e f g g, c4 e8\fE a
+    g e16 d c8 c'~ c h16 a g4
+    c,8 g' r4 g r8 g %50
+    c, a' g g, c4 c'8\pE b
+    a g f g cis, cis' r cis,
+    d b'\fE g4 a8 f16 e f8\pE d
+    g g16 f g8 f e e16 d e8 c
+    f f16 e d8 f g g16 f e8 g %55
+    a a, h h' c a\fE f4
+    g8 c, r c'\pE d4 r8 h
+    c4 r8 a h4 r8 gis
+    a h gis e a f e e,
+    a f'\fE d4 e8 a, r a %60
+    e' e, r4 e' r8 e
+    a, f' e e, a4 r\fermata \bar "||" %62 finis
+  }
+}
+
+LaudamusBassFigures = \figuremode {
+  r2 <_+>8 <[6]>4. %33
+  r8 <6> \bo <[_+]>4. \bc <[6]>8 <6> <[5\+] _+>
+  <[6] 5!> <_!> <7 [_+]>4 <_!>2 %35
+  <[5\+] _+>8 <6>2 \bo <[6 _+]>8 \bc <[5\+ _+]>4
+  r \bo <[6]>8 \bc <[6\\] 4\+ 2\+> <[6 _+]> <_!> <6!> <[6]>
+  r8 <_+>4. <7 _+>4. <\t \t>8
+  r4 \bo <[6 4]>8 \bc <[5 _+]> r2
+  <_+>8 <6>4 q8 <2>8. \once \bassFigureExtendersOn q16 <[7 _+]>4 %40
+  r2 <7>4 <_+>
+  \bo <[5]>4 <_+>8 \bc <[6]>4. <7>4
+  <_+>1
+  \bo <[5\+]>2. <_+>4
+  r <6>2 <7!>4 %45
+  r4. <6>8 r8. q16 r4
+  r8 <\t> \bc <[6]>4 <6>4 \bo <[6 _]>8 <6>
+  q q r2.
+  r8 <6>4. <4\+>8 <6>4 <7!>8
+  r2 <7>4. <\t>8 %50
+  r4 <6 4>8 <5 3>2 \bc <[4 2\+]>8
+  <_+>4 <6>8 <_-> <7-> <[6]>4.
+  r4 <7 [_-]> <_+>8 <6>4.
+  <_->2 <6>
+  r4. <6>8 <[_!]>4. <6>8 %55
+  r4 \bo <[6]>2 \bc <[7]>4
+  r2 <9>8 \bo <[8]>4.
+  <9>8 <8>4. <9>8 <8>4.
+  \bc <[5]>16 <6> \bo <[5\+] _+>8 <6> <_+>4 \bc <[6]>8 <_+>4
+  r4 <[7]> <_+>2 %60
+  \bo <[6] 4>8 \bc <[5] _+>4. <7 _+>4. <\t \t>8
+  r4 \bo <[6] 4>8 \bc <[5] _+> r2 %62 finis
+}

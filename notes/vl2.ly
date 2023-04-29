@@ -210,3 +210,36 @@ GloriaViolinoII = {
     c4 r r\fermata \bar "||"
   }
 }
+
+LaudamusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoLaudamus
+      \set Score.currentBarNumber = #33
+    r8 a'\fE e'16( c) h( a) gis8 a~ \tuplet 3/2 8 { a16[ a, h] c h a }
+    h' a \once \tieDashed h8~ \tuplet 3/2 8 { h16[ gis, a] h a gis } e' d c8 f'16( e) dis( e)
+    e, d' c8~ c16 c h a g!8 h4 c8 %35
+    fis, e16 fis g4 r8 h,16 cis dis4
+    r8 g' g fis fis e c h
+    a gis h16-\parenthesize-! \once \slurDashed h,( a gis) h'-\parenthesize-! \once \slurDashed h,( a gis) d''-! h( a gis)
+    a( gis) a-! a-! a8 gis a4-\critnote r
+    R1 %40
+    r4 r8 \once \tieDashed c~ c16 h32( c) d16 c h8 c
+    r2 r8 \once \tieDashed h~ h16 a32( h) c16 h
+    a8 h r4 r2
+    R1*4 %47
+    r2 r8 c\fE g'16( e) d( c)
+    h8 c16 d e8. e16 d8 \once \tieDashed d~ \tuplet 3/2 8 { d16[ h c] d c h }
+    c8 h d16-! d,( c h) d'-! d,( c h) d'-\parenthesize-! \once \slurDashed d( c h) %50
+    c h c c c8 h c4 r
+    R1
+    r8 f,~ f16 \once \slurDashed e32( f) g16 f e8 d r4
+    R1*2 %55
+    r2 r8 e'~ e16 d32( e) f16 e
+    d8 e r4 r2
+    R1*2
+    r8 c~\fE c16 h32( c) d16 c h8 c a16 \once \slurDashed gis32( a) h16 a %60
+    a8 gis h16-! \once \slurDashed h,16( a gis) h'-! \once \slurDashed h,( a gis) d''-\parenthesize-! \once \slurDashed h( a gis)
+    a gis a a a8 gis a4 r\fermata \bar "||"
+  }
+}

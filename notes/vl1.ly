@@ -206,3 +206,35 @@ GloriaViolinoI = {
     c4 r r\fermata \bar "||" %32 finis
   }
 }
+
+LaudamusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \tempoLaudamus
+      \set Score.currentBarNumber = #33
+    R1*2 %34
+    r2 r8 e'\fE h'16( g!) fis( e) %35
+    dis8 \once \tieDashed e~ \tuplet 3/2 8 { e16 e, fis g[ fis e] } fis' e fis8~ \tuplet 3/2 8 { fis16[ dis, e] fis e dis }
+    g' fis e8 c'16 h ais h h,8 a'16 g f f e d
+    c8 h d16-! d,( c h) d'-! d,( c h) f''-! d( c h)
+    c( h) c-! c-! c8 h a4 r
+    R1 %40
+    r4 r8 \once \tieDashed a'~ a16 gis32( a) h16 a gis8 a
+    r2 r8 \once \tieDashed g~ g16 fis32( g) a16 g
+    fis8 g r4 r2
+    R1*5 %48
+    r8 g\fE c16( h) a( g) fis8 g~ \tuplet 3/2 8 { g16[ d e] f e d }
+    e8 d f16-! f,( e d) f'-! f,( e d) f'-! f( e d) %50
+    e d e e e8 d c4 r
+    R1
+    r8 \once \tieDashed d~ d16 cis32( d) e16 d cis8 d r4
+    R1*2 %55
+    r2 r8 \once \tieDashed c'~ c16 h32( c) d16 c
+    h8 c r e,~\p \tuplet 3/2 8 { e16[ d, e] f e d } d' c \once \tieDashed d8~
+    \tuplet 3/2 8 { d16[ c, d] e d c } c' h \once \tieDashed c8~ \tuplet 3/2 8 { c16[ h, c] d c h } h' a h8
+    e,4 r r2
+    r8 \once \tieDashed a'~\fE a16 gis32( a) h16 a gis8 a c,16 h32( c) d16 c %60
+    c8 h d16-! \once \slurDashed d,( c h) d'-! \once \slurDashed d,( c h) f''-\parenthesize-! \once \slurDashed d( c h)
+    c h c c c8 h a4 r\fermata \bar "||" %62 finis
+  }
+}

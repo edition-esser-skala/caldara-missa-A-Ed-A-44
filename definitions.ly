@@ -12,6 +12,7 @@ tempoChriste = \tempoMarkup "Andante ma non troppo"
 tempoKyrieFuga = \tempoMarkup "Alla capella"
 
 tempoGloria = \tempoMarkup "Allegro"
+tempoLaudamus = \tempoMarkup "Andante"
 
 
 \include "notes/clno1.ly"

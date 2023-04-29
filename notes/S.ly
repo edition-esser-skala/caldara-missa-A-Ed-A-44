@@ -348,9 +348,64 @@ GloriaSopranoLyrics = \lyricmode {
   tis. %31 finis
 }
 
+LaudamusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoLaudamus
+      \set Score.currentBarNumber = #33
+    R1*6 %38
+    r2 r8 \mvTr a'\pE^\solo e'16[ d32 c h16 a]
+    gis8[ a]~ a16[ e' f e] d[ c d8]~ d16[ f e d] %40
+    c8. h16 a4 r r8 c~
+    c h16([ c)] d8 c16 d h4 r
+    r d8 c16([ h)] e8[ c]~ c16[ a h c]
+    d8[ h] g[ a16 h] c8[ a]~ a16[ fis g a]
+    h8. c16 d4 r8 d16([ e)] f!8 e16([ d)] %45
+    e8[ g16 h,] c[ e g,8] a16[ h c8]~ c16[ d e f]
+    h,8 a16([ h)] c4 r8 f e d
+    c8.([ d16] d8.) c16 c4 r
+    R1*2 %50
+    r2 r8 c e16[( d cis d]
+    cis8.) d16 d8 b4 a16([ g)] a8 g16 a
+    f4 r r8 d'4 e16([ f)]
+    b,[ a b8]~ b16[ g a b] c[ b c8]~ c16[ d b c]
+    a[ g a8]~ a16[ f' d c] h[ a h8]~ h16[ g' e d] %55
+    c[ c d e] d8 e16([ f)] e4 r
+    r8 e c d16([ e)] \once \tieDashed f4~ \tuplet 3/2 8 { f16[ d e] f[ e d] }
+    \once \tieDashed e4~ \tuplet 3/2 8 { e16[ c d] e[ d c] } \once \tieDashed d4~ \tuplet 3/2 8 { d16[ h c] d[ c h] }
+    c[ f e dis] e[ h c d] c[ h32 c d16 c] h8. a16
+    a4 r r2 %60
+    R1
+    R\fermata \bar "||" %62 finis
+  }
+}
 
-% Lau -- da -- mus te, be -- ne -- di -- ci -- mus te,
-% ad -- o -- ra -- mus te, glo -- ri -- fi -- ca -- mus te.
+LaudamusSopranoLyrics = \lyricmode {
+  Lau -- da -- %39
+  _ _ %40
+  _ mus te, be --
+  ne -- di -- ci -- mus te,
+  ad -- o -- ra --
+  _ _ _
+  _ mus te, glo -- ri -- fi -- %45
+  ca -- _ _
+  _ mus te, glo -- ri -- fi --
+  ca -- mus te.
+
+  Lau -- da -- %51
+  mus te, be -- ne -- di -- ci -- mus
+  te, ad -- o --
+  ra -- _
+  _ _ %55
+  _ _ mus te,
+  glo -- ri -- fi -- ca -- _
+  _ _ _ _
+  _ _ _ _ mus
+  te. %60 finis
+}
+
+
+
 % Gra -- ti -- as a -- gi -- mus ti -- bi
 % pro -- pter ma -- gnam glo -- ri -- am tu -- am,
 % Do -- mi -- ne De -- us, Rex coe -- le -- stis,
