@@ -16,3 +16,24 @@ KyrieTimpani = {
     g c g8. g16 c4 r\fermata \bar "||" %39 finis
   }
 }
+
+KyrieFugaTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoKyrieFuga
+      \set Score.currentBarNumber = #104
+    R1*63 %166
+    g2\fE g4 g
+    c2 c4 c
+    g2 c
+    g r %170
+    R1*10 %180
+    r2 g
+    c r
+    c r
+    c c4 c
+    g2 c4 c %185
+    g2. g4
+    c2 r\fermata \bar "|." %187 finis
+  }
+}

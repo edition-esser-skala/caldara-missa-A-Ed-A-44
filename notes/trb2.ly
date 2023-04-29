@@ -39,3 +39,84 @@ KyrieTromboneII = {
     h c c h c4 r\fermata \bar "||" %39 finis
   }
 }
+
+KyrieFugaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \twotwotime \key c \major \time 2/2 \tempoKyrieFuga
+      \set Score.currentBarNumber = #104
+    R1*6 %109
+    g2.\fE g4 %110
+    a2. a4
+    g2 c
+    h e4 c
+    a2 d4 h
+    g2 c4 h8 a %115
+    h4 g a h
+    c2 c~
+    c4 h8 a h a g f
+    e4 e a h
+    c2 c~ %120
+    c4 h h2~
+    h4 a2 h4
+    c2 c4 d
+    e c a fis
+    g e' a, d %125
+    g,2 r4 e'
+    c d8 c h4 d
+    h c8 h a4 d
+    g, g a h
+    c c e c %130
+    a2 d4 h
+    c2. h8 a
+    g2 r4 c
+    d d r h
+    c c r a %135
+    h2. h4
+    a2 r4 d
+    d g, c c
+    c f, h h
+    h g r2 %140
+    R1*4
+    f2. f4 %145
+    g2. g4
+    f2 b
+    a d4 b
+    g2 c4 a
+    f2 b4 g %150
+    e e'2 e4
+    a,1
+    R1*4 %156
+    r2 r4 f'
+    f e r e
+    e d g, d'
+    e2 r %160
+    g,2. g4
+    a2. a4
+    g2 c
+    h e4 c
+    a2 h %165
+    c a
+    g2. h4
+    c1
+    h2 g
+    g r4 h %170
+    c a d h
+    h g c g
+    f2 f'4 e
+    d2 r4 e~
+    e8 e f e \once \tieDashed d2~ %175
+    d8 d e d c2~
+    c8 c d c h4 a
+    h2 r
+    r4 c d d
+    r g, c c %180
+    r a g2
+    g g~
+    g g~
+    g g
+    g g4 g %185
+    g1~
+    g2 r\fermata \bar "|." %187 finis
+  }
+}

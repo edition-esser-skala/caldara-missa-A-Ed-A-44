@@ -226,3 +226,192 @@ ChristeBassFigures = \figuremode {
   r8. <6>16 \bo <[6 4]>4 \bc <[5 3]>
   r2. %103 finis
 }
+
+KyrieFugaOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoKyrieFuga
+      \set Score.currentBarNumber = #104
+    \mvTr c2.-!\fE-\tuttiE c4-!
+    d2.-! d4-! %105
+    c2-! f-!
+    e-! a4-! f-!
+    d2-! g4-! e-!
+    c2-! f4-! e8-! d-!
+    << {
+      g2.^\critnote g4 %110
+      a2. a4
+      g2 c
+      h e4 c
+      a2 d4 h
+      g2 c4 h8 a %115
+      h4 g a h
+    } \\ {
+      e,2 g~ %110
+      g4 fis8 e fis e d c
+      h4 h e fis
+      g2 g~
+      g4 f! f2~
+      f4 e2 f4 %115
+      d e f d
+    } >>
+    e2 a
+    f g4 g,
+    c2 d4^\critnote g,
+    c2 f~ %120
+    f8 f g f e2~
+    e8 e f e d4 g
+    c,2 e4 h
+    c2 d
+    e4 \clef "treble_8" e' a, d %125
+    g,2 c~
+    c8 c d c h2~
+    h8 h c h a4 d
+    g, g a h
+    \clef bass c,2. c4 %130
+    d2. d4
+    c2 f
+    e a4 f
+    d2 g4 e
+    c2 f4 d %135
+    h2 e
+    a,4 a' d, f
+    g e c e
+    f d h d
+    e e d c %140
+    f f e d
+    g g f e
+    a a g f
+    e g f e
+    f2. \clef "treble_8" f4 %145
+    g2. g4
+    f2 b
+    a b4 \clef bass b,~
+    b8 b c b a2~
+    a8 a b a g2~ %150
+    g8 g' f g a4 g
+    f d \once \tieDashed d'2~
+    d4 cis8 h cis h a g
+    f2 f4 e
+    d2 e %155
+    f h,4 e
+    a,2 d~
+    d8 d e d c2~
+    c8 c d c h2
+    c1 %160
+    \clef "treble_8" g'2. g4
+    a2. a4
+    g2 c
+    h e4 c
+    a2 h %165
+    c a
+    \clef bass << { g s } \\ { g,2. g4 } >>
+    a2. a4
+    g2 c
+    h e %170
+    a4 f d2
+    g4 e c2
+    f4 e d e8 f
+    g1~-\tasto
+    g~ %175
+    g~
+    g~
+    g4 g c a
+    f2 b?4 g
+    e2 a4 f %180
+    d2 g4 g,
+    c d8 e f g a h
+    c c, d e f g a h
+    c2 c,
+    g' e4 c %185
+    g'2 g,
+    c r\fermata \bar "|." %187 finis
+  }
+}
+
+KyrieFugaBassFigures = \figuremode {
+  r1 %104
+  r %105
+  r
+  r
+  r
+  r
+  r %110
+  r
+  r
+  r
+  r
+  r %115
+  r
+  <[6]>
+  <6 5>
+  <5>2. <[7]>4
+  r1 %120
+  <6 5>
+  q
+  r2 <[6]>4 <6>
+  <6 5>2 <_+>
+  <_!>2. <[7] _+>4 %125
+  r1
+  <6 5>4 \bo <[_! _]>2.
+  <6 5>1
+  r2 <6>4 q
+  r1 %130
+  <7>2 <6>
+  r <3>4 <4>
+  <6>1
+  <7>4 <6> q2
+  <7>4 <6> q2 %135
+  <7> <7 _+>
+  r2. \bc <[6 _]>4
+  r <5>2 \bo <[6]>4
+  r2. \bc q4
+  r4 <6> <[6]>2 %140
+  r4 <6> <[6]>2
+  r4 <6> <[6]>2
+  r4 <6> q q
+  q <6 _->2 <[6]>4
+  r1 %145
+  \bo <7 [_-]>2 \bc <6 [\t]>
+  r2 \bo <[3]>4 <4>
+  \bc <[6]>1
+  <6 5>
+  q2 <[_-]> %150
+  <6 5 [_-]> <_+>
+  <[6]>1
+  <2>2.. \once \bassFigureExtendersOn q8
+  <[6]>1
+  <6! 5>2 <_+> %155
+  r <7>4 <[7] _+>
+  r1
+  <6 5>4 <[_!]>2.
+  <6 5>1
+  r %160
+  <5>
+  <3>2 <6>
+  q <6>4 <4>
+  <3>2 q4 q
+  q <6> \bo <[4]> \bc <[3]> %165
+  r1
+  <5 4>2 <\t 3>
+  <[5]>2 <6>
+  q1
+  q2 <5> %170
+  r2. \bo <[6]>4
+  r1
+  r2. \bc <[6]>4
+  r1
+  r %175
+  r
+  r
+  r
+  <7>2 <[7]>
+  <7 [5-]> <[7]> %180
+  <7> <[_!]>
+  r1
+  r
+  r
+  r2 \bo <[6 _]> %185
+  <6 4> \bc <[5 3]>
+  r1 %187 finis
+}

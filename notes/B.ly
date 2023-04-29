@@ -71,3 +71,164 @@ KyrieBassoLyrics = \lyricmode {
   _ _ son, e -- le -- i --
   son, e -- lei -- son. %39 finis
 }
+
+KyrieFugaBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoKyrieFuga
+      \set Score.currentBarNumber = #104
+    \mvTr c2.\fE^\tutti c4
+    d2. d4 %105
+    c2 f
+    e a4( f)
+    d2 g4 e
+    c2 f4 e8[ d]
+    e2 g~ %110
+    g4 fis8[ e] fis([ e d c])
+    h4 h e fis
+    g2 \once \tieDashed g~
+    g4 f! \once \tieDashed f2~
+    f4 e2 f4 %115
+    d e f d
+    e2 a
+    f( g4 g,)
+    c2^\critnote r
+    r r4 a' %120
+    f8[( f g f]) e4 g
+    e8([ e f e]) d4 g
+    c,2 e4 h
+    c2 d
+    e2 r %125
+    R1*4
+    c2. c4 %130
+    d2. d4
+    c2 f
+    e a4( f)
+    d2( g4 e)
+    c2 f4( d) %135
+    h2 e
+    a, r4 f'
+    g e c e
+    f d h d
+    e2( d4 c) %140
+    f f e d
+    g g f e
+    a a( g f)
+    e( g f e)
+    f2 r %145
+    R1*2
+    r2 r4 d'
+    b8([ b c b]) a4 c
+    a8([ a b a]) g4 b %150
+    g8([ g f g] a4 g)
+    f d \once \tieDashed d'2~
+    d4 cis8[ h] cis[ h a g]
+    f2 f4( e)
+    d2 e %155
+    f h,4 e
+    a,2 r4 d
+    d8([ d e d]) c4 c
+    c8([ c d c] h2)
+    c r %160
+    R1*6 %166
+    g2. g4
+    a2. a4
+    g2 c
+    h e %170
+    a4 f d2
+    g4 e c2
+    f4 e d e8[ f]
+    g2 g
+    g g %175
+    g1~
+    g~
+    g2 c4( a)
+    f2 b4 g
+    e2 a4 f %180
+    d2 g
+    c, c'
+    c c,4 c'
+    c2 c,
+    g' e4( c) %185
+    g'2 g,
+    c r\fermata \bar "|." %187 finis
+  }
+}
+
+KyrieFugaBassoLyrics = \lyricmode {
+  Ky -- ri -- %104
+  e e -- %105
+  le -- i --
+  son, e --
+  lei -- _ _
+  _ _ _
+  son, e -- %110
+  _ lei --
+  son, e -- le -- i --
+  son, e --
+  _ lei --
+  _ _ %115
+  _ _ _ _
+  son, e --
+  lei --
+  son,
+  e -- %120
+  lei -- son, e --
+  lei -- son, e --
+  lei -- _ _
+  _ _
+  son, %125
+
+  Ky -- ri -- %130
+  e e --
+  le -- i --
+  son, e --
+  lei --
+  son, e -- %135
+  le -- i --
+  son, e --
+  le -- i -- son, e --
+  le -- i -- son, e --
+  lei -- %140
+  son, e -- le -- i --
+  son, e -- le -- i --
+  son, e --
+  lei --
+  son, %145
+
+  e -- %148
+  lei -- son, e --
+  lei -- son, e -- %150
+  lei --
+  son, e -- lei --
+  _ _
+  son, e --
+  lei -- _ %155
+  _ _ _
+  son, e --
+  lei -- son, e --
+  lei --
+  son, %160
+
+  Ky -- ri -- %167
+  e e --
+  le -- i --
+  son, e -- %170
+  lei -- _ _
+  _ _ _
+  _ _ _ _
+  son, e --
+  le -- i -- %175
+  son, __
+
+  e --
+  lei -- _ _
+  _ _ _ %180
+  _ _
+  son, e --
+  lei -- son, e --
+  le -- i --
+  son, e -- %185
+  le -- i --
+  son. %187 finis
+}

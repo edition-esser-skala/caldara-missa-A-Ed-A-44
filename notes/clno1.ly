@@ -17,3 +17,30 @@ KyrieClarinoI = {
     g8 g g8. g16 e4 r\fermata \bar "||" %39 finis
   }
 }
+
+KyrieFugaClarinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoKyrieFuga
+      \set Score.currentBarNumber = #104
+    R1*26 %129
+    \pa r4 g''\fE c2~ %130
+    c4 h8 a h a g f
+    e4 e a h
+    c2 c, \pd
+    R1*32 %165
+    \pa c2. c4
+    d2. g4 \pd
+    e2 e4 f
+    g2 g4 g
+    g2 r %170
+    R1*10 %180
+    r2 g
+    g r
+    g r
+    g4 g8 g f4 e
+    d2 e4 e %185
+    e2 d
+    c r\fermata \bar "|." %187 finis
+  }
+}

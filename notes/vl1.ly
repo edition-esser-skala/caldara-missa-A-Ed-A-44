@@ -97,3 +97,73 @@ ChristeViolinoI = {
     f r r\fermata \bar "||" %103 finis
   }
 }
+
+KyrieFugaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoKyrieFuga
+      \set Score.currentBarNumber = #104
+    R1*19 %122
+    g'2.\fE g4
+    a2. a4
+    g2 c %125
+    h e4 c
+    a2 d4 h
+    g2 c4 h8 a
+    h4 h c d
+    g,2 c~ %130
+    c4 h8 a h a g f
+    e4 e a h
+    c2 c~
+    c4 h h2~
+    h4 a a2~ %135
+    a gis
+    a4 c f d
+    h h e c
+    a a d h
+    g c h c %140
+    a d c d
+    h e d e
+    c f e d
+    c b a g^\critnote
+    a2 f'~ %145
+    f4 e8 d e d c b
+    a4 a d e
+    f2 \once \tieDashed f~
+    f4 e e2~
+    e4 d d2~ %150
+    d cis
+    d1
+    R
+    a2. a4
+    h!2. h4 %155
+    a2 d
+    c f4 d
+    h2 e4 c
+    a2 d4 h
+    g2 r %160
+    R1*5 %165
+    c2. c4
+    d2. d4
+    c2 f
+    e e
+    d g4 e %170
+    c2 f4 d
+    h2 e4 c
+    a2 d4 c
+    h2 e4 c
+    a2 d4 h %175
+    g2 c4 a
+    fis2. fis4
+    g2 e'~
+    e8 e f e d2~
+    d8 d e d c2~ %180
+    c8 c d c h!4 c8 d
+    e2 e~
+    e e~
+    e d4 c
+    h2 c4 c %185
+    c2 h
+    c r\fermata \bar "|." %187 finis
+  }
+}
