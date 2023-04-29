@@ -232,3 +232,46 @@ KyrieFugaBassoLyrics = \lyricmode {
   le -- i --
   son. %187 finis
 }
+
+GloriaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.
+    \mvTr c'4\fE^\tutti c8 c g^\critnote g
+    c4 c, r
+    c' c,8 c e c
+    g'4 g, r %5
+    g' g8 a h g
+    c h a4.( d,8)
+    g4 r r
+    g2.
+    g %10
+    g4( g,) g'
+    e r r
+    c'2.
+    c
+    c4( c,) b' %15
+    a r d,8 f
+    g4. g8 g4
+    r g\pE g
+    g2.
+    g %20
+    d
+    h
+    e~
+    e4 e, r
+    r c'2\fE %25
+    d2.
+    e2 e4
+    a,2.
+    g!~
+    g %30
+    c2 r4
+    R2.\fermata \bar "||" %32 finis
+  }
+}
+
+GloriaBassoLyrics = \lyricmode {
+
+}

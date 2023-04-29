@@ -131,81 +131,158 @@
   %     \midi { \tempo 4 = 80 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Kyrie eleison"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new Staff \with { \smallStaffDistance } <<
+  %           \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
+  %           \partCombine #'(0 . 10) \KyrieFugaClarinoI \KyrieFugaClarinoII
+  %         >>
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "trb"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \KyrieFugaTromboneI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \KyrieFugaTromboneII
+  %           }
+  %         >>
+  %       >>
+  %       \new Staff {
+  %         \set Staff.instrumentName = "timp"
+  %         \KyrieFugaTimpani
+  %       }
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \KyrieFugaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \KyrieFugaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \KyrieFugaSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \KyrieFugaSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \KyrieFugaAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \KyrieFugaAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \KyrieFugaTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \KyrieFugaTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \KyrieFugaBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \KyrieFugaBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \KyrieFugaOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \KyrieFugaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 110 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Kyrie eleison"
+    \section "2" "Gloria"
     \addTocEntry
     \score { %\articulate
       <<
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
             \set Staff.instrumentName = \markup \center-column { "clno" "1, 2" }
-            \partCombine #'(0 . 10) \KyrieFugaClarinoI \KyrieFugaClarinoII
+            \partCombine #'(0 . 10) \GloriaClarinoI \GloriaClarinoII
           >>
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "trb"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \KyrieFugaTromboneI
+              \GloriaTromboneI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \KyrieFugaTromboneII
+              \GloriaTromboneII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = "timp"
-          \KyrieFugaTimpani
+          \GloriaTimpani
         }
         \new StaffGroup <<
           \new GrandStaff <<
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \KyrieFugaViolinoI
+              \GloriaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \KyrieFugaViolinoII
+              \GloriaViolinoII
             }
           >>
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \KyrieFugaSoprano }
+            \new Voice = "Soprano" { \dynamicUp \GloriaSoprano }
           }
-          \new Lyrics \lyricsto Soprano \KyrieFugaSopranoLyrics
+          \new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \KyrieFugaAlto }
+            \new Voice = "Alto" { \dynamicUp \GloriaAlto }
           }
-          \new Lyrics \lyricsto Alto \KyrieFugaAltoLyrics
+          \new Lyrics \lyricsto Alto \GloriaAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \KyrieFugaTenore }
+            \new Voice = "Tenore" { \dynamicUp \GloriaTenore }
           }
-          \new Lyrics \lyricsto Tenore \KyrieFugaTenoreLyrics
+          \new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \KyrieFugaBasso }
+            \new Voice = "Basso" { \dynamicUp \GloriaBasso }
           }
-          \new Lyrics \lyricsto Basso \KyrieFugaBassoLyrics
+          \new Lyrics \lyricsto Basso \GloriaBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \KyrieFugaOrgano
+            \GloriaOrgano
           }
         >>
-        \new FiguredBass { \KyrieFugaBassFigures }
+        \new FiguredBass { \GloriaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 110 }
+      \midi { \tempo 4 = 120 }
     }
   }
 }

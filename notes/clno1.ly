@@ -44,3 +44,27 @@ KyrieFugaClarinoI = {
     c r\fermata \bar "|." %187 finis
   }
 }
+
+GloriaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGloria
+    g''8\fE g16 g g8 e f d
+    e4 r r
+    g8 g16 g g8 e f16 f e d
+    e4 r r
+    g8 g16 g g8 g fis fis %5
+    g4 r r
+    R2.*5 %11
+    c8 g16 g g8 g \pa f e16 d \pd
+    e4 r r
+    R2.*2 %15
+    c8 c16 c c4 r
+    g'8 g16 g g8^\critnote g g4
+    R2.*11 %28
+    g4.\fE d8 e4^\critnote
+    e d4. c8 %30
+    c4 r g'8. g16
+    e4 r r\fermata \bar "||" %32 finis
+  }
+}

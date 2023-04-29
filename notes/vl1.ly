@@ -167,3 +167,42 @@ KyrieFugaViolinoI = {
     c r\fermata \bar "|." %187 finis
   }
 }
+
+GloriaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGloria
+    c''16\fE g g g c g g g f f e d
+    e4 c, r
+    c''16 g g g c g g g f f e d
+    e4 c, r
+    g''16 d d d g d d d c c h a %5
+    h4 g,8 d'' d d
+    e d c2
+    g'16 d d d g d d d c c h a
+    h8 h,16 c d8 c d h
+    r d16 e f!8 e f d %10
+    r h'16 c d8 h h h
+    c'16 g g g c g g g f f e d
+    e8 e,16 f g8 f g e
+    r g16 a b8 a b g
+    r e'16 f g8 e e e %15
+    f16 c c c f c c c f a, a a
+    h! g g g g g g g g4
+    r8 h\pE h h h h
+    r c c c c c
+    r cis cis cis cis cis %20
+    r d d d d d
+    r dis dis dis dis dis
+    r e e e d d
+    r c h h c d
+    e\fE e e e e e %25
+    r e d d d d
+    r d c c h h
+    r c4 c c8
+    r h h h c c
+    r c c c h h %30
+    c16 g g g c g g g f f e d
+    c4 r r\fermata \bar "||" %32 finis
+  }
+}

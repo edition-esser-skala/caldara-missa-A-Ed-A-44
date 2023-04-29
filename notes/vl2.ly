@@ -171,3 +171,42 @@ KyrieFugaViolinoII = {
     c r\fermata \bar "|." %187 finis8
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoGloria
+    e'16\fE e e e e e e e d d c h
+    c4 e, r
+    e'16 e e e e e e e d d c h
+    c4 e, r
+    h'16 h h h h h h h a a g fis %5
+    g4 h,8 g' g g
+    g g g4 fis
+    h16 g g g h g g g a a g fis
+    g8 g,16 a h8 a h g
+    r h16 c d8 c d h %10
+    r d16 e f!8 d d d
+    g'16 e e e e e e e d d c h
+    c8 c,16 d e8 d e c
+    r e16 f g8 f g e
+    r g16 a b8 g g g
+    a16 a a a a a a a a f f f
+    d h! h h h h h h h4
+    r8 d\pE d d d d
+    r es es es es es
+    r e e e e e
+    r f f f f f
+    r fis fis fis fis fis
+    r g gis gis gis gis
+    r a gis gis a h
+    c\fE e, e e a a
+    r f fis fis fis fis
+    r gis gis gis gis gis
+    r a e e f! f
+    r f e d e e
+    r e d d d d
+    e16 e e e e e e e d d c h
+    c4 r r\fermata \bar "||"
+  }
+}

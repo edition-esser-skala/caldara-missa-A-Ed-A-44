@@ -297,3 +297,67 @@ KyrieFugaAltoLyrics = \lyricmode {
   le -- i --
   son. %187 finis
 }
+
+GloriaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.
+    \mvTr g'4\fE^\tuttiE g8 g g g
+    g4 g r
+    g g8 g g g
+    g4 g r %5
+    g g8 g g g
+    g g g4( fis)
+    g r r
+    R2.*3 %11
+    g4 r r
+    R2.*3 %15
+    f4 r a8 a
+    g4. g8 g4
+    r g\p g
+    g2.
+    a %20
+    f
+    fis
+    g4 gis2
+    a4 gis r
+    r e\f a %25
+    f fis2
+    gis2.
+    a4 e f!~
+    f e8[ d] e4~
+    e d2 %30
+    e r4
+    R2.\fermata \bar "||" %32 finis
+  }
+}
+
+GloriaAltoLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- %2
+  cel -- sis,
+  glo -- ri -- a in ex --
+  cel -- sis, %5
+  glo -- ri -- a in ex --
+  cel -- sis De --
+  o.
+
+  Pax, %12
+
+  pax, pax ho -- %16
+  mi -- ni -- bus
+  bo -- nae
+  vo --
+  lun -- %20
+  ta --
+  _
+  _ _
+  _ tis,
+  bo -- nae %25
+  vo -- lun --
+  ta --
+  _ _ _
+  _ _
+  _ %30
+  tis. %31 finis
+}

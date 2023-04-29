@@ -415,3 +415,73 @@ KyrieFugaBassFigures = \figuremode {
   <6 4> \bc <[5 3]>
   r1 %187 finis
 }
+
+GloriaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoGloria
+    \mvTr c'4\fE^\tutti c, g'
+    c c, g'
+    c c, g'
+    c c, e8 c
+    g'4 g, d' %5
+    g8 g, g' a h g
+    c h a g a d,
+    g4 g, d'
+    g, r r
+    R2.*2 %11
+    c4 c g'
+    c, r r
+    R2.*2 %15
+    f4 f, d'8 f
+    g2 g,4
+    r8 \mvTr g'\p-\senzaOrg g g g g
+    r g g g g g
+    r g g g g g %20
+    r d d d d d
+    r h h h h h
+    r e e e e e
+    r e e e d d
+    r c\f c c c c %25
+    r d d d d d
+    r e e e e e
+    r a, a a a a
+    r g! g g g g
+    r g g g g g %30
+    c2 r4
+    c r r\fermata \bar "||" %32 finis
+  }
+}
+
+GloriaBassFigures = \figuremode {
+  r2 \bo <[7]>4
+  r2 <7>4
+  r2 <7>4
+  r2 <6>4
+  r2 <_+>4 %5
+  r2.
+  r8 <6> <7>4 <6\\>8 <\t>
+  r2 <_+>4
+  r2.
+  r2.*2 %11
+  r2 <7>4
+  r2.
+  r2.*2 %15
+  r2 r8 <6>
+  \bc <[_!]>2.
+  r
+  r
+  r %20
+  r
+  r
+  r
+  r
+  r8 <[6]> r2 %25
+  r8 <9 _!> <[8] _+>2
+  r8 <7 _+> \bassFigureExtendersOn \bo <[6] _+>4 \bc <[5] _+> \bassFigureExtendersOff
+  r2 <6!>4
+  r8 <7>4. <[6 4]>4
+  r <5 4> <\t 3> %30
+  r2.
+  r %32 finis
+}

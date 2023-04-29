@@ -231,3 +231,67 @@ KyrieFugaTenoreLyrics = \lyricmode {
   lei --
   son. %187 finis
 }
+
+GloriaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoGloria
+    R2.
+    \mvTr c4\fE^\tutti c8 c d h
+    c4 c r
+    c c8 c c c
+    h4 h r %5
+    h h8 h d h
+    c d e4( a,)
+    g r r
+    R2.*3 %11
+    c4 r r
+    R2.*3 %15
+    c4 r d8 d
+    d4. d8 d4
+    r d\p d
+    es2.
+    e %20
+    \once \tieDashed a,~
+    a
+    g8[ h] \once \tieDashed e2~
+    e4 e r
+    r a,\f a %25
+    a2 d4
+    h \once \tieDashed e2~
+    e4 c2
+    d4 \once \tieDashed g,2~
+    g2. %30
+    g2 r4
+    R2.\fermata \bar "||" %32 finis
+  }
+}
+
+GloriaTenoreLyrics = \lyricmode {
+  Glo -- ri -- a in ex -- %2
+  cel -- sis,
+  glo -- ri -- a in ex --
+  cel -- sis, %5
+  glo -- ri -- a in ex --
+  cel -- sis De --
+  o.
+
+  Pax, %12
+
+  pax, pax ho -- %16
+  mi -- ni -- bus
+  bo -- nae
+  vo --
+  lun -- %20
+  ta --
+
+  _ _
+  tis,
+  bo -- nae %25
+  vo -- lun --
+  ta -- _
+  _
+  _ _
+  %30
+  tis. %31 finis
+}

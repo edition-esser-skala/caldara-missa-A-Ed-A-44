@@ -120,3 +120,32 @@ KyrieFugaTromboneII = {
     g2 r\fermata \bar "|." %187 finis
   }
 }
+
+GloriaTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 3/4 \tempoGloria
+    R2.
+    c4\fE c8 c d h
+    c4 c r
+    c c8 c c c
+    h4 h r %5
+    h h8 h d h
+    c d e4 a,
+    g r r
+    R2.*3 %11
+    c4 r r
+    R2.*3 %15
+    c4 r d8 d
+    d4. d8 d4
+    R2.*7 %24
+    r4 a\fE a %25
+    a2 d4
+    h \once \tieDashed e2~
+    e4 c2
+    d4 g,2~
+    g2. %30
+    g2 r4
+    R2.\fermata \bar "||" %32 finis
+  }
+}
