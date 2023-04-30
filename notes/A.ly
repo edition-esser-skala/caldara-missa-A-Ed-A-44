@@ -361,3 +361,59 @@ GloriaAltoLyrics = \lyricmode {
   _ %30
   tis. %31 finis
 }
+
+GratiasAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoGratias
+      \set Score.currentBarNumber = #63
+    R1*8 %70
+    r2 \mvTr f4.\pE^\solo c16 a
+    d8 c16 d b8.([ c16)] a4 r
+    r2 f'4. g16([ a)]
+    g8 c, r d16 e f[ e \once \tieDashed f8]~ f16[ d e f]
+    e[ e d c] g'4 r16 g[ f e] a4 %75
+    r16 a[ g f] b8[ a16 g] a4~ a16[ f^\critnote e d]
+    h'8.[ a32 h] c8 f,16 e e4( d)
+    c r r2
+    R1
+    r2 c4. d16 e %80
+    f8 g16 a b!8 a16 g a([ g)] f8 r4
+    r2 r4 a8 b16([ c)]
+    d,8 e16([ f)] g[ g a b] c,8[ d16 e] f[ f g a]
+    b,8[ \once \tieDashed g']~ g f16 g e([ d)] c8 r4
+    r2 r4 f8 e16([ f)] %85
+    d[ d e f] g4 r16 g[ f e] a4
+    r16 a[ g f] b4 r16 e,[ d c] b'4
+    r16 e,[ d c] b'8[ a16 g] \once \tieDashed a4~ a16[ b] g f
+    e4 f b,4. c16([ b)]
+    a8[ c] f4~ f16[ g a f] d'8 b16 g %90
+    f4( g) f r
+    R1*4 %95
+    R1\fermata \bar "||" %96 finis
+  }
+}
+
+GratiasAltoLyrics = \lyricmode {
+  Gra -- ti -- as %71
+  a -- gi -- mus ti -- bi
+  pro -- pter
+  ma -- gnam, ma -- gnam glo --
+  _ _ _ _ %75
+  _ _ _
+  _ _ ri -- am tu --
+  am.
+
+  Gra -- ti -- as, %80
+  gra -- ti -- as a -- gi -- mus ti -- bi
+  pro -- pter
+  ma -- gnam glo -- _ _
+  _ ri -- am tu -- am,
+  ma -- gnam %85
+  glo -- _ _ _
+  _ _ _ _
+  _ _ _ ri -- am
+  tu -- am, ma -- gnam
+  glo -- _ _ ri -- am %90
+  tu -- am. %91 finis
+}

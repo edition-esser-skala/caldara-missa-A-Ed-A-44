@@ -556,3 +556,82 @@ LaudamusBassFigures = \figuremode {
   \bo <[6] 4>8 \bc <[5] _+>4. <7 _+>4. <\t \t>8
   r4 \bo <[6] 4>8 \bc <[5] _+> r2 %62 finis
 }
+
+GratiasOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoGratias
+      \set Score.currentBarNumber = #63
+    \mvTr f8\fE-\solo g a f b f d e
+    f f16 g a8 f e a d, g
+    c, c' r16 h a g c8 c, r16 h' a g %65
+    c8 c, f d h c g' g,
+    c c16 b a8 f b a16 g a8 b
+    c c16 d e8 c d f16 e f8 d
+    e c16 h c4 r8 c16 h c4
+    r8 c16 d e8 c f c d a %70
+    b g c c, f g\pE a f
+    b a d e f\fE f16 g a8 f
+    b f d e f g\pE a f
+    e a16 g a8 f16 e d8 d'16 c h8 g
+    c,4 r16 c' h g c8 c, r16 d' cis a %75
+    d4 d,8 e f f16 e f8 d
+    g f e a g f g g,
+    c4 r16 c'\fE h g c8 c, r16 cis' h a
+    d4 d,8 e f e16 d e8 d
+    c! a' f g c, c'16\pE b! a8 g %80
+    a f g c, f8. g16 a8\fE g
+    a f g c, f a16 g f8\pE f,
+    b b' r g a a, r f'
+    g8. a16 b8 h c8. b16 a8\fE f
+    g e f d c8. b16 a8\pE f %85
+    b b' r16 b, a g c8 c' r16 c, b a
+    d8 d' r16 d, c b c4 r16 e d e
+    c4 r8 c f e d b
+    c b a f g g' e c
+    f4. g8 a4^\critnote b %90
+    c8 b c c, f g a\fE f
+    b8. a16 b8 h c e,16 d c8 c'
+    d8. c16 d8 d, e c16 h c4
+    r8 c16 h c4 r8 c16 d e8 c
+    f e16 f d8 b c b a d %95
+    c4 c, f r\fermata \bar "||" %96 finis
+  }
+}
+
+GratiasBassFigures = \figuremode {
+  r2. <6>8 \bo <[6 _]> %63
+  r2 <6>
+  r4 r16 <6>8. r4 r16 <6>8. %65
+  r2 <6>4 <6 4>8 <5 _!>
+  r4 <6>2 q4
+  r \bc <[6 _]>2.
+  r2 r8 <7>4.
+  r8 q2. \bo <[6 _]>8 %70
+  r4 <6 4>8 <5 3> r2
+  r8 <6> q q4. q4
+  r q8 q r2
+  \bc <[6 _]>4. <6> \bo <[6 5]>8 <\t \t>
+  r4. \bc <[6 _]>2 <6>8 %75
+  r4 <6>8 <[6!]> r2
+  <_!>4 \bo <[6]>8 <6> <6 4>4 <5 _!>
+  r4. \bc <[6]> r16 <6>8.
+  r4 <6->8 <[6!]>4 <6>4.
+  r4 <6>8 <_!> r4 \bc <[6]> %80
+  <6>1
+  \bo <[6]>
+  r
+  r4 <6>8 <5>4. <6>4
+  r8 <6> r2 \bc <[6]>4 %85
+  r r16 <6>8. r4 r16 <6>8.
+  r4 r16 <6>8. \bo <[7]>4 r16 <6>8.
+  <7>4. <\t> <6>8 q
+  r4 q2 q4
+  r4. <7>8 <6>4 <5>8 \bc <[6]> %90
+  <4>4 <3>2.
+  r1
+  r2 <[6]>
+  r8 <7>2 q4.
+  r4 \bo <[6 _]>8 <6>4. <6>8 q %95
+  <6 4>4 \bc <[5 3]>2. %96 finis
+}

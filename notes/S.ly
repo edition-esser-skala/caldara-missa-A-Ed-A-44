@@ -406,8 +406,7 @@ LaudamusSopranoLyrics = \lyricmode {
 
 
 
-% Gra -- ti -- as a -- gi -- mus ti -- bi
-% pro -- pter ma -- gnam glo -- ri -- am tu -- am,
+
 % Do -- mi -- ne De -- us, Rex coe -- le -- stis,
 % De -- us Pa -- ter o -- mni -- po -- tens,
 % Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,

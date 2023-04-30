@@ -150,3 +150,41 @@ GloriaTromboneI = {
     R2.\fermata \bar "||" %32 finis
   }
 }
+
+GratiasTromboneI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoGratias
+      \set Score.currentBarNumber = #63
+    f4~\fE f16 c b a d8 a b16 d c b
+    a g f8 r16 f' g a g e d c f8 e16 d
+    e c e f g4 r16 e d c g'4 %65
+    r16 g f e a g f8 g16 f e f e8 d\trill
+    c4 r16 c b! a d e f8 r16 f e d
+    e d c8 r16 g' f e f g a8 r16 a g f
+    g f e8 r16 e d c g' a b8 r16 e, d c
+    g' a b8 r16 g f g a e e8\trill f4~ %70
+    f16 g a b a8 g f4 r
+    r2 \once \tieDashed f4~ f16 c b a
+    d8 a b16 d c b a4 r
+    R1*4 %77
+    r16 e'\fE d c g'4 r16 g f e a4
+    r16 a g f b!8 a16 g a8 g4 f8
+    e8.\trill d32 c d8.\trill c16 c4 r %80
+    r2 r4 c8 d16 e
+    f f g a b8 a16 g a g f8 r4
+    R1
+    r2 r4 f8 g16 a
+    b g g8\trill a16 f f8\trill e16 d c8 r4 %85
+    r d16\pE d c b e4 r16 e d-\critnote c
+    f4 r16 f e d e4 r16 g f g
+    e4 r8 e f4 r
+    R1*2 %90
+    r2 r4 r16 c\fE b c
+    d e f8 r16 f e d e d c8 r16 g' f e
+    f g a8 r16 a g f g f e8 r16 e d c
+    g' a b8 r16 e, d c g' a b8 r16 g f g
+    a4~ a16 b g f e8. e16 f8 b16 g %95
+    a4 g\trillE f r\fermata \bar "||" %96 finis
+  }
+}
