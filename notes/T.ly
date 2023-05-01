@@ -295,3 +295,49 @@ GloriaTenoreLyrics = \lyricmode {
   %30
   tis. %31 finis
 }
+
+DomineTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 3/4 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #97
+    R2.*3 %99
+    \mvTr a4.\fE^\tutti a8 a([ cis)] %100
+    d4. d8 d d
+    d([ cis)] cis4 e8 cis
+    d2 h4
+    a a( gis8.) a16
+    a4 r r %105
+    \mvTr \once \tieDashed e'2.~\pE^\solo
+    e~
+    e4. h16[ c] d8 c16([ h)]
+    c4.( h8) a4
+    f'4.( e8) d([ c)] %110
+    h4. a8 g!4
+    e'4. d8[ c h]
+    a4. f'8 h,4
+    c8.([ d16)] e4( d)
+    c r r %115
+    R2.*11 %126
+    R2.\fermata \bar "||" %127 finis
+  }
+}
+
+DomineTenoreLyrics = \lyricmode {
+  Do -- mi -- ne __ %100
+  De -- us, Rex coe --
+  le -- stis, De -- us
+  Pa -- ter
+  o -- mni -- po --
+  tens. %105
+  Do --
+
+  _ mi -- ne
+  Fi -- li
+  u -- ni -- %110
+  ge -- ni -- te,
+  Je -- _
+  _ _ _
+  su __ Chri --
+  ste. %115 finis
+}

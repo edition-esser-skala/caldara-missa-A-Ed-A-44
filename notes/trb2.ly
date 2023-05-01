@@ -149,3 +149,20 @@ GloriaTromboneII = {
     R2.\fermata \bar "||" %32 finis
   }
 }
+
+DomineTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #97
+    R2.*3 %99
+    a4.\fE a8 a cis %100
+    d4. d8 d d
+    d cis cis4 e8 cis
+    d2 h4
+    a a gis8. a16
+    a4 r r %105
+    R2.*21 %126
+    R2.\fermata \bar "||" %127 finis
+  }
+}

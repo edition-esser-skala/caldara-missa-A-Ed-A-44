@@ -635,3 +635,76 @@ GratiasBassFigures = \figuremode {
   r4 \bo <[6 _]>8 <6>4. <6>8 q %95
   <6 4>4 \bc <[5 3]>2. %96 finis
 }
+
+DomineOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #97
+    \mvTr d8\fE-\soloE d'16 cis d8 d,16 e f8 e
+    d d'16 cis d8 d,16 e f8 d
+    g e a g a a,
+    d-\tuttiE d'16 cis d8 d,16 e f8 e %100
+    d d'16 cis d8 d,16 e f8 d
+    a' a16 gis a8 a,16 h cis8 a
+    d d'16 cis d8 d, e gis
+    a d, e d e e,
+    a a'16-\soloE gis a8 a,16 h c8 h %105
+    a a'16\pE gis a8 a,16 h c8 a
+    gis gis'16 fis gis8 gis,16 a h8 a
+    gis gis'16 fis gis8 gis16 fis e8 gis
+    a a16 gis a8 a,16 h c8 a
+    d d'16 c d8 c h a %110
+    g! g16 fis g8 g,16 a h8 g
+    c c'16 h c8 g a e
+    f f16 e f8 e16 d g8 f
+    e e16 f g8 f g g,
+    c c'16\fE h c8 c,16 d e8 d %115
+    c c'16\pE h c8 c,16 d e8 c
+    g' g16 fis g8 g,16 a h8 g
+    c c'16 h c8 c,16 d e8 c
+    f, f'16 e f8 f16 e d8 f
+    e e16 d e8 e16 fis gis8 e %120
+    a a16 gis a8 a16 h c8 c,
+    d d16 cis d8 d16 e f8 d
+    g g16 fis g8 g16 a h8 h,
+    c c16 d e8 c f d
+    e e16 f g8 f g g, %125
+    c c'16\fE h c8 e,16 f g8 g,
+    c4 r r\fermata \bar "||" %127 finis
+  }
+}
+
+DomineBassFigures = \figuremode {
+  r2 \bo <[6 _]>8 <6\\>
+  r2 <6>4
+  <6 _-> <6 4> <5 _+>
+  r2 <6>8 <6\\> %100
+  r2.
+  <6 4>8 <5 _+> r2
+  r <_+>8 <6 5>
+  <_!> <7> <6 4>4 <5 _+>
+  r2 <6>8 <6\\> %105
+  r2.
+  <6>
+  <\t>
+  r
+  r4. <6>8 <6\\>4 %110
+  r2.
+  r
+  r
+  <6>4 <6 4> <5 3>
+  r2 <6>8 \bc <[6 _]> %115
+  r2.
+  r
+  r
+  r2 <6>4
+  <_+>2. %120
+  r2 \bo <[6]>4
+  r2 <6>4
+  r2 q4
+  r2.
+  <6> %125
+  r2 <6 4>8 \bc <[5 3]>
+  r2. %127 finis
+}

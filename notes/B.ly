@@ -275,3 +275,52 @@ GloriaBasso = {
 GloriaBassoLyrics = \lyricmode {
 
 }
+
+DomineBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #97
+    R2.*3 %99
+    \mvTr d4.\fE^\tutti d16([ e)] f8([ e)] %100
+    d4. d16([ e)] f8 d
+    a'4 a, cis8 a
+    d2 e8([ gis)]
+    a([ d,)] e4. e8
+    a,4 r r %105
+    R2.*10 %115
+    \mvTr g'4.\pE^\solo g8 c4
+    h4. c8 d f,
+    e([ d)] c4 r
+    a'2 h8 a
+    gis4. gis16[ a] h8[ a16 h] %120
+    c4. c16[ d] e8[ e,]
+    f4. f16[ g] a8[ g16 a]
+    h4. h16[ c] d8[ d,]
+    e4. c'8 a[ g16 f]
+    g8[ c] g2 %125
+    c,4 r r
+    R2.\fermata \bar "||" %127 finis
+  }
+}
+
+DomineBassoLyrics = \lyricmode {
+  Do -- mi -- ne __ %100
+  De -- us, Rex coe --
+  le -- stis, De -- us
+  Pa -- ter __
+  o -- mni -- po --
+  tens. %105
+
+  Do -- mi -- ne %116
+  De -- us, A -- gnus
+  De -- i,
+  Fi -- li -- us
+  Pa -- _ _ %120
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  _ _ %125
+  tris. %126 finis
+}

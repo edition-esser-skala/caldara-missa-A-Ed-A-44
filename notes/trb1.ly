@@ -188,3 +188,20 @@ GratiasTromboneI = {
     a4 g\trillE f r\fermata \bar "||" %96 finis
   }
 }
+
+DomineTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #97
+      R2.*3 %99
+    f4.\fE f16 g a8 g %100
+    a4. a8 a a
+    a4 a a8 a
+    a2 gis8 e
+    e f e4. e8
+    e4 r r %105
+    R2.*21 %126
+    R2.\fermata \bar "||" %127 finis
+  }
+}

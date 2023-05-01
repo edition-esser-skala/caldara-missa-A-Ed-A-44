@@ -243,3 +243,20 @@ LaudamusViolinoII = {
     a gis a a a8 gis a4 r\fermata \bar "||"
   }
 }
+
+DomineViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoDomine
+      \set Score.currentBarNumber = #97
+    R2.*3 %99
+    d'4.\fE d8 d e %100
+    f e d4. f8
+    f e e4 a,8 e'
+    f2 e8 d
+    c!2 h8. a16
+    a4 r r %105
+    R2.*21 %126
+    R2.\fermata \bar "||" %127 finis
+  }
+}

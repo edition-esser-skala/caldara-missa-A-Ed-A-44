@@ -404,13 +404,33 @@ LaudamusSopranoLyrics = \lyricmode {
   te. %60 finis
 }
 
+DomineSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoDomine
+      \set Score.currentBarNumber = #97
+    R2.*3 %99
+    \mvTr d'4.\fE^\tutti d8 d([ e)] %100
+    f e d4. f8
+    f([ e)] e4 a,8 e'
+    f2 e8([ d)]
+    c!4 c( h8.) a16
+    a4 r r %105
+    R2.*21 %126
+    R2.\fermata \bar "||" %127 finis
+  }
+}
+
+DomineSopranoLyrics = \lyricmode {
+  Do -- mi -- ne __ %100
+  De -- us, Rex coe --
+  le -- stis, De -- us
+  Pa -- ter __
+  o -- mni -- po --
+  tens. %105 finis
+}
 
 
-
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
-% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
