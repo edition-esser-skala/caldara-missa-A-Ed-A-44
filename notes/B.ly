@@ -247,7 +247,7 @@ GloriaBasso = {
     g4 r r
     g2.
     g %10
-    g4( g,) g'
+    g4( g,) f'^\critnote
     e r r
     c'2.
     c
@@ -273,7 +273,36 @@ GloriaBasso = {
 }
 
 GloriaBassoLyrics = \lyricmode {
-
+  Glo -- ri -- a in ex -- %2
+  cel -- sis,
+  glo -- ri -- a in ex --
+  cel -- sis, %5
+  glo -- ri -- a in ex --
+  cel -- sis De --
+  o.
+  Et
+  in %10
+  ter -- ra
+  pax,
+  et
+  in
+  ter -- ra %15
+  pax, pax ho --
+  mi -- ni -- bus
+  bo -- nae
+  vo --
+  lun -- %20
+  ta --
+  _
+  _
+  tis,
+  bo -- %25
+  nae
+  vo -- lun --
+  ta --
+  _
+  %30
+  tis. %31 finis
 }
 
 DomineBasso = {
