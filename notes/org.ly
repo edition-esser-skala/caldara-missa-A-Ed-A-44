@@ -708,3 +708,70 @@ DomineBassFigures = \figuremode {
   r2 <6 4>8 \bc <[5 3]>
   r2. %127 finis
 }
+
+QuiTollisOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #128
+    r8 \mvTr g'\f-\solo g g r fis fis fis
+    r g g g r es es es
+    r d d d r d d d %130
+    r g-\tutti g g r fis fis fis
+    r fis fis fis r g g g
+    r c, c c r b b b
+    r a a a r g g g
+    r g g g r c a d %135
+    r g b g r g d g
+    r c, es c r d d d
+    r es fis fis r g g g
+    r g f f r es es es
+    r d d d r d d d %140
+    r g g g g4 g,
+    \tempoQuiTollisB r \mvTr g'\pE-\soloE c c,
+    d d, g8 a h4
+    c8 d es f g4. f8
+    es d c d16 es f4 f, %145
+    b4. d8 es4 c
+    f8 f, b g' f es f f,
+    b4 \clef treble f''-\tutti b \clef bass b,8 a
+    g a g f e!4 fis
+    g g, d' d, %150
+    << { a''4. a8 b4 h } \\ { r2 d,4. d8 } >>
+    es es fis fis g4 g,
+    c a g4. g8
+    d'1~-\tasto
+    d2 g,\fermata \bar "||" %155 finis
+  }
+}
+
+QuiTollisBassFigures = \figuremode {
+  <[_-]>2 <6> %128
+  <[_-]> <6\\ [5-]>
+  <[8] _+>4 <7 \t>8 <6- 4>4 <\t \t>8 <5 _+>4 %130
+  \bo <[_-]>2 \bc <[6]>
+  <6 5> <9 _->4 <8 \t>
+  <7- _-> <6 \t> <7> <6>
+  <7> <6\\> <_->2
+  r <_->4 <6\\>8 <\t> %135
+  <_->2. \bo <6! [_!]>8 \bc <\t [\t]>
+  <[_-]>2 <7 _+>4 <6- 4>8 <5 _+>
+  <[7]> <6> <6 5>4 \bo <[9] _-> \bc <[8] \t>
+  <_-> <4!> <6>2
+  <7 _+>4 <6- 4> <5 \t> <\t _+>4 %140
+  <_->1
+  r4 \bo <[_- _]> <7- _-> \bassFigureExtendersOn <6 _->8 \bc <[5 _-]> \bassFigureExtendersOff
+  <9- _+>4 <8 \t> \bo <[_! _]> <6>8 <5!>
+  <9 _->4 <6> <_!>4. <\t>8
+  <6>4 <_->2. %145
+  r4. <5>8 <9 5->4 <8 \t>8 <_->
+  <7>4. <_->8 <6 4->4 <5 3>
+  r1
+  <_->2 <6 5->4 <6 5>
+  <9 _-> <8 \t> <6- 4> <5 _+> %150
+  r1
+  <6>4 \bc <[6 5]> <_-> <_!>
+  \bo <[_-]> <6\\> <4> \bc <[_-]>
+  r1
+  r %155 finis
+}

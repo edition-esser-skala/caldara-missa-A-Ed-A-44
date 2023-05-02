@@ -260,3 +260,34 @@ DomineViolinoII = {
     R2.\fermata \bar "||" %127 finis
   }
 }
+
+QuiTollisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #128
+    r8 b'\fE b b r a a a
+    r g g g r g g g
+    r fis fis g r g fis fis %130
+    r g b b r a a a
+    r a a a r d, g g
+    r g es es r d g d
+    r c c c r d d d
+    r g g g r es c c %135
+    g'4. g8 b b h h
+    c g g g r fis g fis
+    r g d d r d d d
+    r g g g r g g g
+    r fis g g r g fis fis %140
+    r d d d d4 r
+    \tempoQuiTollisB R1*6 %147
+    r4 f\fE b2~
+    \once \tieDashed b~ b4 a8 a
+    a4 g8 g g4 fis %150
+    R1
+    g4 a b8 b h h
+    \once \tieDashed c2~ c4 b
+    a4. g8 fis4 g
+    g fis g2\fermata \bar "||" %155 finis
+  }
+}

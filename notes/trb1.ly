@@ -205,3 +205,34 @@ DomineTromboneI = {
     R2.\fermata \bar "||" %127 finis
   }
 }
+
+QuiTollisTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #128
+    r8 g'\fE g g r d d d
+    r d d d r cis? cis g'
+    r a a d, r d d d %130
+    r d d d r d d d
+    r d d d r d d d
+    r es es es r d d d
+    r c c c r d d d
+    d4. d8 es es fis fis %135
+    g g g g r g f f
+    r es es es r d g fis
+    r c c c r b b b
+    r d d d r es c c
+    r d d d r d d d %140
+    r b b b b4 r
+    \tempoQuiTollisB R1*6 %147
+    r2 r4 f'\fE
+    \once \tieDashed g2~ g4 d8 d
+    d4 d8 d d4 d %150
+    R1
+    r2 d4. d8
+    es es fis fis g4 g
+    fis8 e d4 d d
+    d2 d\fermata \bar "||" %155 finis
+  }
+}

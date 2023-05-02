@@ -166,3 +166,34 @@ DomineTromboneII = {
     R2.\fermata \bar "||" %127 finis
   }
 }
+
+QuiTollisTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #128
+    r8 d\fE d d r a a a
+    r b b b r g g g
+    r a a b r b16 c d8 d, %130
+    r g g g r a a a
+    r a a a r a g g
+    r g c c r d g, g
+    r a a a r b b b
+    r b b b r c c a %135
+    r d d d r d d d
+    r c c c r a d d
+    r c a a g4. g8
+    b b h h c g g g
+    r a b c r d d, d %140
+    r g g g g4 r
+    \tempoQuiTollisB R1*6 %147
+    r2 r4 d'~\fE
+    d2 c4 c
+    b b8 b b4 a %150
+    a4. a8 b b h h
+    c4. b16 a g4 r
+    g a8 c d4. d8
+    d c b4 a b
+    a2 g\fermata \bar "||" %155 finis
+  }
+}
