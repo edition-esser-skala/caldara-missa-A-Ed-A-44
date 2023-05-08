@@ -68,3 +68,27 @@ GloriaClarinoII = {
     c4 r r\fermata \bar "||" %32 finis
   }
 }
+
+QuoniamClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #156
+    R1*40 %195
+    r2 d'4\fE r8 d
+    d8. g,16 g8 d' c_\critnote g d' d16 d
+    c8 c16 c c8 d c8. c16 g8. g16
+    e4 r r2
+    R1*32 %231
+    R1
+    r8 c' f4. e16 f g8 d
+    e4 g, c8 d16 e f8 c
+    d4. c8 g g16 g c8 c %235
+    d d16 d e8 e d4 r
+    R1*2
+    r2 g,4 d'
+    c8 c16 c d8 g,16 d' e8 d16 d c8 g16 c %240
+    g8 g16 g g8. g16 e4 d'8. d16
+    c4 r r2\fermata \bar "|." %242 finis
+  }
+}

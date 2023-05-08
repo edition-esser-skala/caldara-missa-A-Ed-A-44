@@ -286,3 +286,78 @@ QuiTollisViolinoI = {
     g fis g2\fermata \bar "||" %155 finis
   }
 }
+
+QuoniamViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #156
+    r8 a''\fE a a a16 \once \slurDashed f( e d) cis( d) cis( d)
+    b( a g f) \once \slurDashed e( d cis) a' f e d8 d16( e32 f g a h cis)
+    d16 cis d8~ d16 f e d cis h a8~ a16 a32( h cis d e f)
+    g16 b,( a g) a g'( f e) f e d8~ d e32( f g a)
+    b16 d,( c b) c8 d32( e f g) a16 c,( b a) b8 c32( d e f) %160
+    g16 \once \slurDashed b,( a g) a8 h32( cis d e) f8 e r a
+    b16 \once \slurDashed g( fis g) es( d cis d) cis8 d d16( e32 f g a h cis)
+    d8 d,16 e e8.\trill d16 d4 r
+    R1*7 %170
+    r2 r8 g g g
+    g16 e( d c) h( c) h( c) a( g f e) d( c h) g'^\critnote
+    e-\critnote d c8 c16( d32 e f g a h) c16 h c8~ c16 e d c
+    h g f' d e c b' g a h, c d e8 d
+    c4 r r2 %175
+    R1*3
+    r2 r4 f,16( g32 a b c d e)
+    f16 e f8~ f16 a g f e d c8 r4 %180
+    R1*4
+    r8 a' a a a16 f( e d) cis( d) cis( d) %185
+    b( a g f) \once \slurDashed e( d cis) a' f e d8 d'\p e32( f g a)
+    b16 d,( c b) c8 d32( e f g) a16 \once \slurDashed c,( b a) b8 c32( d e f)
+    g16 b,( a g) a8 h32( cis d e) f4 r
+    R1*2 %190
+    r2 r4 d,16(\fE e32 f g a h cis)
+    d16 cis d8~ d16 f e d cis h a8~ a16 a32( h cis d e f)
+    g16 b,( a g) a \once \slurDashed g'( f e) f e d8 r a'
+    b16 \slurDashed g( fis g) es( d cis d) \slurSolid cis8 d d16( e32 f g a h cis)
+    d16 f, d e f8 e d d,16 g f8 e %195
+    d d' d d d d d d16 c!
+    h8 h16 c d8 h e d r d
+    e e16 e e8 d c d c h
+    c4 r r2
+    R1*9 %208
+    r2 r4 c
+    e4. d16 e c4 a %210
+    d4. c16 d h4 g
+    c4. h16 c a4 d
+    g, r r f'8 e16 f
+    d8 c h4 r e8 d16 e
+    c8 h a4 r d8 c16 d %215
+    h4. a16 h c4 a~
+    a8 h16 c d8 c h a g4~
+    g8 a16 h c8 h a4 r
+    r2 r4 e'
+    f!4. e16 f d4 h %220
+    e4. d16 e c4 a
+    d4. c16 d h4 e~
+    e8 d c4. h8 a4~
+    a8 h16 c h8 a g4 r
+    r h e4. d!16 e %225
+    c!4 a d4. c16 d
+    h4 g~ g8 a16 h c8 h
+    a4. g16 fis g4 fis
+    r e'8 d!16 e c!8 h a4
+    r d8 c16 d h8 a g4 %230
+    r c8 h16 c a4 h
+    a2 g4 r
+    r d'~ d8 e16 f g8 f
+    e d c4~ c8 d16 e f8 e
+    d c h4. c16 d e4 %235
+    d e d e
+    f4. e16 f d4 h
+    e4. d16 e c4 a
+    d4. c16 d h4 g
+    c4 d4. g,8 c4~ %240
+    c h c h
+    c r r2\fermata \bar "|." %242 finis
+  }
+}

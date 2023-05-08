@@ -236,3 +236,52 @@ QuiTollisTromboneI = {
     d2 d\fermata \bar "||" %155 finis
   }
 }
+
+QuoniamTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoQuoniam
+      \set Score.currentBarNumber = #156
+    R1*40 %195
+    r8 f\fE f f f f f f
+    g g g g g g r g
+    g g g g e f e d
+    c4 r r2
+    R1*6 %205
+    r4 g' a4. g16 a
+    f4 d g4. f16 g
+    e4 c f4. e16 f
+    d4 g c, g'8 f
+    e4 c'8 h16 c a8 g fis4 %210
+    r h8 a16 h g8 fis e4
+    r a8 g16 a fis4. e16 fis
+    g4 g8 f e4 c~
+    c8 d16 e f8 e d c h4~
+    h8 c16 d e8 d c h a4 %215
+    f'8 e d4 e e
+    f d~ d8 e16 f g8 f
+    e4 r c d~
+    d8 c16 h e8 d c h a h16 c
+    d4 r r2 %220
+    R1*3
+    r2 r4 g
+    h4. a16 h g4 e %225
+    a4. g16 a fis4 d
+    g4. fis16 g e2~
+    e8 fis16 e dis4 e dis
+    r e~ e8 fis16 g a8 g
+    fis e \once \tieDashed d!4~ d8 e16 fis g8 fis %230
+    e d c4 r2
+    r r4 g'
+    a4. g16 a f!4 d
+    g4. f16 g e4 c
+    f4. e8 d g4 g8 %235
+    g2 g4 r
+    r2 r4 d
+    g4. f16 g e4 c
+    f4. e16 f d4 h
+    g'4. g8 g4 g %240
+    g1
+    g4 r r2\fermata \bar "|." %242 finis
+  }
+}
