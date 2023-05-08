@@ -19,6 +19,12 @@ tempoQuiTollis = \tempoMarkup "Adagio"
   tempoQuiTollisB = \tempoMarkup "Un poco andante"
 tempoQuoniam = \tempoMarkup "Allegro"
 
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
+  tempoMortuorum = \tempoMarkup "Adagio"
+  tempoEtVitam = \tempoMarkup "Allegro"
+
 
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"

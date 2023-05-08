@@ -252,3 +252,85 @@ QuoniamTromboneII = {
     c r r2\fermata \bar "|." %242 finis
   }
 }
+
+CredoTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoCredo
+    r2 c4\fE h8 h
+    c f e d e4 c16 d e8
+    e4 d8 h c h a d
+    d4 r r8 h h c
+    d8. c16 h8 g g4 fis %5
+    g d'8 d h4 h8 h
+    h8. a16 g4 r c~
+    c8 c d f-\critnote e4. e8
+    e4 r r2
+    R1*20 %29
+    r2 r4 d\fE %30
+    d g,8 a16 h c8. c16 c4
+    r2 r8 a a a
+    a4 d8 d g,4 g8 g
+    g2 g4 r8 f
+    g2 g4 r \noBreak %35
+    R1\fermata \bar "||"
+    \key c \dorian \tempoEtIncarnatus R1*18 \noBreak %54
+    R1\fermata \bar "||" %55
+    \key c \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      R2.*3
+    c4\fE c4. h8
+    c4 c c8 h %60
+    c4 c g8 g16 g
+    g8. a16 h4 r
+    h c2
+    d8 d d4 d
+    R2.*5 %69
+    c4 c c %70
+    c c8 d c4
+    c r r
+    R2.*5 %77
+    \mvTr c2.\fE-\critnote
+    d
+    h %80
+    c4. d8 e4
+    R2.*4 %85
+    r4 gis,\fE gis
+    a a a
+    a4 a gis
+    a a gis
+    a r r %90
+    R2.*21 %111
+    e'2.\fE
+    e2 e4
+    c4. h8 a4
+    d d d %115
+    d4. c8 h4
+    g g d'
+    e4. e8 e4
+    d d4. d8
+    d4 r r %120
+    R2.*3
+    h4. h8 h h
+    h4. h8 c4 %125
+    e e dis
+    e r r
+    R2.*3 %130
+    c4. c8 c c \noBreak
+    c4 h r\fermata \bar "||"
+    \time 4/4 \tempoMortuorum \newSpacingSection R1*2 \noBreak
+    R1\fermata \bar "||" %135
+    \tempoEtVitam R1*6 %141
+    r4 c\fE e e8 e
+    e4 a,8 c d d d d16 d
+    d4 g, r e'
+    \once \tieDashed d~ d8 c d h16 c d4 %145
+    c4. c8 h2
+    a4 a8 h16 c d4 d~
+    d8 c16 d e8 h c4. c8
+    d8. c16 h8 a g!4 r
+    r a a a8 a %150
+    h4 g8 g g g g g16 g
+    a8 h16 c d4 g,8 g g4
+    g g g r\fermata \bar "|." %153 finis
+  }
+}

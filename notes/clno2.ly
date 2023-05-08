@@ -92,3 +92,43 @@ QuoniamClarinoII = {
     c4 r r2\fermata \bar "|." %242 finis
   }
 }
+
+CredoClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    e'8.\fE f16 d c d e c4 r
+    r8 f e d e e16 d c8 c
+    c4 g r2
+    R1*26 %29
+    r2 r4 d'\fE %30
+    d e8_\critnote d e8. e16 e4
+    R1
+    r2 r4 r8 e
+    d d16 d d d d d e8 d c c16 d
+    e d c8 g8. g16 e8 c' g8. g16 \noBreak %35
+    c4 r r2\fermata \bar "||"
+    \tempoEtIncarnatus R1*18 %54
+    R1\fermata \bar "||" %55
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      e4\fE r8 e e d \noBreak
+    c4 r8 e e d16 e
+    c4 r8 c g8. g16
+    e4 r8 e' e d
+    c4 r8 e e d %60
+    c4 r8 e d d
+    e4 d r
+    R2.*67 %129
+    c,8\fE c16 c e8 e16 e e8 e16 e %130
+    c'8 c16 c e8 e16 e e8 e \noBreak
+    e4 d r\fermata \bar "||"
+    \time 4/4 \tempoMortuorum \newSpacingSection R1*2 \noBreak
+    R1\fermata \bar "||"
+    \tempoEtVitam R1*13
+    r2 r4 d\fE
+    c c8 c c4 d
+    g, g8 g g g c4
+    r2 r8 e d8. d16
+    e4 d e r\fermata \bar "|."
+  }
+}

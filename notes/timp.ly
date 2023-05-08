@@ -81,3 +81,43 @@ QuoniamTimpani = {
     c4 r r2\fermata \bar "|." %242 finis
   }
 }
+
+CredoTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    c4\fE g c r
+    r8 c g8. g16 c4 c8 c16 c
+    c4 g r2
+    R1*26 %29
+    r2 r4 g\fE %30
+    g g8. g16 c8. c16 c4
+    R1
+    r2 r4 r8 c
+    g8. g16 g8 g16 g c4 c8 c
+    g c g8. g16 c8 c g8. g16 \noBreak %35
+    c4 r r2\fermata \bar "||"
+    \tempoEtIncarnatus R1*18 %54
+    R1\fermata \bar "||" %55
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      c4\fE r8 c c g \noBreak
+    c4 r8 c c g
+    c4 r8 c g8. g16
+    c4 r8 c c g
+    c4 r8 c c g %60
+    c4 r8 c g g
+    c4 g r
+    R2.*67 %129
+    c4\fE c c %130
+    c8 c16 c c8 c c c \noBreak
+    g2 r4\fermata \bar "||"
+    \time 4/4 \tempoMortuorum \newSpacingSection R1*2 \noBreak
+    R1\fermata \bar "||" %135
+    \tempoEtVitam R1*13 %148
+    r2 r4 g\fE
+    c c8 c c4 r %150
+    g g8 g g8. g16 c4
+    r2 r8 c g8. g16
+    c4 g c r\fermata \bar "|." %153 finis
+  }
+}

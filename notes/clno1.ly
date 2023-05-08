@@ -92,3 +92,43 @@ QuoniamClarinoI = {
     e4 r r2\fermata \bar "|." %242 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    g''8.\fE a16 f e f g e4 r
+    r8 a g8. g16 g8 g16 f e8 e
+    e4 d r2
+    R1*26 %29
+    r2 r4 g\fE %30
+    g g8 g g8. g16 g4
+    R1
+    r2 r4 r8 g
+    g g16 g g g g g g8 f e e16 f
+    \pa g f e f \pd d8. d16 c8 e d8. d16 \noBreak %35
+    e4 r r2\fermata \bar "||"
+    \tempoEtIncarnatus R1*18 %54
+    R1\fermata \bar "||" %55
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      g4\fE r8 g g f \noBreak
+    e4 r8 g g f16 g
+    e4 r8 e d8. d16
+    c4 r8 g' g f
+    e4 r8 g g f %60
+    e4 r8 g g g
+    g4 g r
+    R2.*67 %129
+    e,8\fE e16 e g8 g16 g c8^\critnote c16 c %130
+    e8 e16 e g8 g16 g g8 g \noBreak
+    g4 g r\fermata \bar "||"
+    \time 4/4 \tempoMortuorum \newSpacingSection R1*2 \noBreak
+    R1\fermata \bar "||" %135
+    \tempoEtVitam R1*13 %148
+    r2 r4 g\fE
+    \pa e8 e e e e d16 e f8 f \pd %150
+    d4 d8 d \pa d c16 d \pd e4
+    r2 r8 g g8. g16
+    g4 g g r\fermata \bar "|." %153 finis
+  }
+}

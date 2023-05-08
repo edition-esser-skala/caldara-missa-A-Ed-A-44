@@ -361,3 +361,123 @@ QuoniamViolinoI = {
     c r r2\fermata \bar "|." %242 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c''4\fE r c8 g4 f8
+    e a g8. g16 g8 g g8. g16
+    g4 g8 g e d c4
+    h8 h h c d8. c16 h4
+    d16 g, h d g8 c, h4 a %5
+    g16 d' e fis g a h h h g fis e dis cis h a
+    g fis g a h8 e, e'4. d8
+    c4. d8 c4 h8. a16
+    a e' fis gis a a,-\critnote a' a a g f e d c h a
+    f'8 a,16 h c8 h a4 r %10
+    R1*3
+    r2 r16 g'\fE a h c c, c' c
+    c h a g f e d c a'8 c,16 d e8 d %15
+    c4 r r2
+    R1*6 %22
+    r16 h\fE cis dis e e, e' e e d c h a g fis e
+    c'8 e,16 fis g8 fis e4 r
+    R1*4 %28
+    r16 d'\fE e fis g g, g' g g fis e d c h a g
+    e'8 g,16 a h8 a g4 h %30
+    h c8 d e4 e
+    r2 r8 e e c
+    c4 h8 h c4 c8 e
+    d16 e d c h a g f e8 g c c
+    c4 h c r \noBreak %35
+    R1\fermata \bar "||"
+    \key c \dorian \tempoEtIncarnatus
+      g8\fE g es' es as, as as as \noBreak
+    g4 r8 d' g, g c c
+    c4 h c8 es,\pp es es
+    g g g g g g f f %40
+    f f es es es es as as
+    g g g g f f f f
+    g g as as as as g g
+    g g fis fis g d d d
+    c c' c b! as as as as %45
+    g g g f16 es es8 es d d
+    c4 r r2
+    R1*7 \noBreak %54
+    R1\fermata \bar "||" %55
+    \key c \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      c''4\fE r8 c16 c c c h h \noBreak
+    c4 r8 c16 c c c h h
+    c8 g g g g g
+    g4 r8 c16 c c c h h
+    c4 r8 c16 c c c h h %60
+    c4 r8 g g16 g g g
+    g4 g d
+    e4. d8 c4~
+    c8 h h a g4
+    r8 h c c c c %65
+    r a a a a a
+    r d d d d d
+    r e e e e e
+    c2.~
+    c8 b a4 b %70
+    a a8 b a g
+    f4 r r
+    R2.*4 %76
+    r8 h! h h h h
+    r c c c c c
+    r d d d d d
+    r d d d d d %80
+    r c c c c c
+    f,2.\p
+    e~
+    e2 d4
+    e8 e16\f fis gis8 e gis h %85
+    \once \tieDashed e4~ e8 d c h
+    c h a4 r
+    d r8 d d4
+    c c h
+    a r r %90
+    R2.*21 %111
+    r8 h\fE h h h h
+    r h h h h h
+    r c c c c c
+    r a a a a a %115
+    r h h h h h
+    r d d d d d
+    c c c c c c
+    h4 a4. a8
+    g d' d d d d %120
+    r d d d d d
+    r d d d cis cis
+    r d d d d d
+    r h h h h h
+    h h h h a h %125
+    c4 h2
+    h8 h h h h h
+    r c c c c c
+    r d d d d d
+    r c c c c c %130
+    e e e e e e \noBreak
+    e4 d r\fermata \bar "||"
+    \time 4/4 \tempoMortuorum \newSpacingSection R1*2 \noBreak
+    R1\fermata \bar "||" %135
+    \tempoEtVitam R1*2
+    r4 c\fE e e8 e
+    e4 a,8 c d d d^\critnote d16 d
+    d4 g, r c~ %140
+    c8 d16 c h8 a h4. d8
+    h a16 h c4 r c
+    a r a4. d8
+    g,4 g8 f e4 r
+    R1*2 %146
+    r4 e' f f8 f
+    f4 h,8 d e e e e16 e
+    e8 a, d c h4 h8 a16 h
+    c4 c c d8 d %150
+    d4 h8 h h h c h16 c
+    a4. a8 h c4 h8
+    c4 h c r\fermata \bar "|." %153 finis
+  }
+}
