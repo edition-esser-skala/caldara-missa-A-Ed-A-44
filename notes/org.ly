@@ -1338,3 +1338,59 @@ SanctusBassFigures = \figuremode {
   \bo <[6]>8 \bc q r2. %20
   <6 4>4 <5 3>2. %21 finis
 }
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoBenedictus
+    \mvTr f,4\fE-\soloE f'8 e d4 a
+    b c8 e f a16 g f4
+    g8 e16 d e4 f8 d16 c d8 d'
+    c e,16 d e8 c f8. g16 a b a g
+    f8 a16 b c8 c, f f,\pE e' c %5
+    f, f' e d c4. h8
+    c4 e f8. e16 f8 d
+    e8. d16 e8 c d8. c16 d8 h
+    c d e c g' e16 f g8 g,
+    c\fE c'16 h c8 c, d h'16 a h8 h, %10
+    c e16 d e8 a,^\critnote h8. a16 h8 g
+    c e16 a g8 g, c c'\pE h g
+    c c,16 d e8 c f4. e8
+    f4 a, b8. a16 g4
+    a8. g16 f4 g8. a16 b8 g %15
+    c c, c' d e e, e' c
+    f e16 f d8 b c b a g16 a
+    b4. b16 a g4. b8
+    a g f b c b c c,
+    f\fE f'16 e f8 f, g e'16 d e4 %20
+    f8 d16 c d8 d' c e,16 d e8 c
+    f8. g16 a b a g f8 a16 b c8 c,
+    f,4 r r2\fermata \bar "||" %23 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r4. <6> q4
+  q4. q8 r2
+  r8 <6 5>2 <5>4 <6>8
+  <7>8 <6 5>4. r4 <6>8 q16 q
+  r8 q16 q <4>8 <3> r4 <6> %5
+  r <6>8 <6!> r4. <6>8
+  r4 q <5>8 <6>4.
+  q2.. q8
+  r <6!> <6>4 <_!>8 <6> <4> <_!>
+  r2 r8 <6 5>4. %10
+  r8 <6>4 q8 <6 5>4. <7 _!>8
+  r <6> <6 4> <5 _!>4. <6>8 <_!>
+  r4 <6>8 <7-> r4. <6>8
+  r4 q2 <5>8 <6>
+  q4 <5>8 <6> r4 q %15
+  r2 <6>
+  r4. <6 5>4 <\t>8 <6>4
+  r2.. <6>8
+  q q4. <6 4>4 <5 3>
+  r2 r8 <6 5>4. %20
+  r8 <5>4 <6>8 <7>8 <6 5>4.
+  r4 <6>8 q16 q r8 q16 q <4>8 <3>
+  r1 %23 finis
+}
