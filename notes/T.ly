@@ -705,3 +705,53 @@ CredoTenoreLyrics = \lyricmode {
   a -- men, a --
   men, a -- men. %153 finis
 }
+
+SanctusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g4\fE^\tutti g r2
+    R1
+    c4 c e4. d8
+    c16[ d e d] c8[ h] a16[ h c h] a8[ g]
+    fis16[ g a g] fis8 d' d8. d16 d4 %5
+    r2 h4 h8 h
+    h4^\critnote h a8. a16 a4
+    r2 a4^\critnote a8 a
+    d4 e8([ d)] c([ h)] a4 \noBreak
+    h2 r\fermata \bar "||" %10
+    \tempoPleni c4 c8 c c h r4 \noBreak
+    r r8 h h4 h8 h
+    c4 c r2
+    R1*2 %15
+    r2 r4 r8 h
+    c4. d16[ c] h4. c16[ h]
+    a8. a16 a4 d e8 e
+    e d r d d8. d16 d8 d
+    g, g g c h e d e %20
+    e4( d) e r\fermata \bar "|." %21 finis
+  }
+}
+
+SanctusTenoreLyrics = \lyricmode {
+  San -- ctus,
+
+  san -- ctus, san -- _
+  _ _ _ _
+  _ _ ctus Do -- mi -- nus, %5
+  Do -- mi -- nus
+  De -- us Sa -- ba -- oth,
+  Do -- mi -- nus
+  De -- us __ Sa -- ba --
+  oth. %10
+  Ple -- ni sunt coe -- li,
+  sunt coe -- li et
+  ter -- ra
+
+  glo -- %16
+  _ _ _ _
+  _ ri -- a, glo -- ri -- a
+  tu -- a. O -- san -- na in ex --
+  cel -- sis, in ex -- cel -- sis, in ex -- %20
+  cel -- sis. %21 finis
+}

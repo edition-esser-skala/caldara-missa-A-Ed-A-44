@@ -481,3 +481,31 @@ CredoViolinoI = {
     c4 h c r\fermata \bar "|." %153 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    c'4\fE c r2
+    c4. h8 a h c d
+    e4 e r2
+    R1
+    a,4. a8 h8. h16 h4 %5
+    d d8 d d4 d
+    d4. d8 c2
+    r c4 c8 c
+    h4 c a4. a8 \noBreak
+    gis2 r\fermata \bar "||" %10
+    \tempoPleni c'16 c c c c c c c c c h h g g d d \noBreak
+    d d d d d d d d g g g g g g g g
+    g g e e c c g g e e e e e e e e
+    e8 e16 d c8 e f f f f
+    e e e e fis fis g g %15
+    g g fis fis g4 r
+    R1
+    r4 r8 a h4 c8 c
+    c h r h h8. h16 h8 h
+    c d e e d c h c^\critnote %20
+    c4 h c r\fermata \bar "|."
+  }
+}
