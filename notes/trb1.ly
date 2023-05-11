@@ -156,7 +156,7 @@ GratiasTromboneI = {
     \clef alto
     \key f \major \time 4/4 \tempoGratias
       \set Score.currentBarNumber = #63
-    f4~\fE f16 c b a d8 a b16 d c b
+    \mvTr f4~\fE-\soloE f16 c b a d8 a b16 d c b
     a g f8 r16 f' g a g e d c f8 e16 d
     e c e f g4 r16 e d c g'4 %65
     r16 g f e a g f8 g16 f e f e8 d\trill

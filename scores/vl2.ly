@@ -1,31 +1,30 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm page-count = #1 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Violino II"
+          \KyrieViolinoII
         }
-        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }
   \bookpart {
     \subsection "Christe eleison"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \ChristeOrgano }
-        \new FiguredBass { \ChristeBassFigures }
+        \new Staff { \ChristeViolinoII }
       >>
     }
   }
@@ -34,49 +33,38 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \KyrieFugaOrgano }
-        \new FiguredBass { \KyrieFugaBassFigures }
+        \new Staff { \KyrieFugaViolinoII }
       >>
     }
   }
   \bookpart {
     \section "2" "Gloria"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
-        \new FiguredBass { \GloriaBassFigures }
+        \new Staff { \GloriaViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Laudamus te"
     \addTocEntry
+    \paper { systems-per-page = #8 }
     \score {
       <<
-        \new Staff { \LaudamusOrgano }
-        \new FiguredBass { \LaudamusBassFigures }
+        \new Staff { \LaudamusViolinoII }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Gratias agimus tibi"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \GratiasOrgano }
-        \new FiguredBass { \GratiasBassFigures }
-      >>
-    }
+    \tacet "subsection" "Gratias agimus tibi"
   }
   \bookpart {
     \subsection "Domine Deus"
     \addTocEntry
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \DomineOrgano }
-        \new FiguredBass { \DomineBassFigures }
+        \new Staff { \DomineViolinoII }
       >>
     }
   }
@@ -86,8 +74,7 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
-        \new FiguredBass { \QuiTollisBassFigures }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
@@ -97,8 +84,7 @@
     \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
-        \new FiguredBass { \QuoniamBassFigures }
+        \new Staff { \QuoniamViolinoII }
       >>
     }
   }
@@ -107,19 +93,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \CredoOrgano }
-        \new FiguredBass { \CredoBassFigures }
+        \new Staff { \CredoViolinoII }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
-        \new FiguredBass { \SanctusBassFigures }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -129,19 +113,17 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \BenedictusOrgano }
-        \new FiguredBass { \BenedictusBassFigures }
+        \new Staff { \BenedictusViolinoIeII }
       >>
     }
   }
   \bookpart {
     \subsection "Osanna"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \OsannaOrgano }
-        \new FiguredBass { \OsannaBassFigures }
+        \new Staff { \OsannaViolinoII }
       >>
     }
   }
@@ -150,8 +132,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
-        \new FiguredBass { \AgnusBassFigures }
+        \new Staff { \AgnusViolinoII }
       >>
     }
   }

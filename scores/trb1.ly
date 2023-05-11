@@ -1,38 +1,30 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "trb 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Trombone I"
+          \KyrieTromboneI
         }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Christe eleison"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \ChristeOrgano }
-      >>
-    }
+    \tacet "subsection" "Christe eleison"
   }
   \bookpart {
     \subsection "Kyrie eleison"
     \addTocEntry
     \score {
       <<
-        \new Staff { \KyrieFugaOrgano }
+        \new Staff { \KyrieFugaTromboneI }
       >>
     }
   }
@@ -42,34 +34,27 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \GloriaOrgano }
+        \new Staff { \GloriaTromboneI }
       >>
     }
-  }
-  \bookpart {
-    \subsection "Laudamus te"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \LaudamusOrgano }
-      >>
-    }
+    \tacet "subsection" "Laudamus te"
   }
   \bookpart {
     \subsection "Gratias agimus tibi"
     \addTocEntry
     \score {
       <<
-        \new Staff { \GratiasOrgano }
+        \new Staff { \GratiasTromboneI }
       >>
     }
   }
   \bookpart {
     \subsection "Domine Deus"
     \addTocEntry
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \DomineOrgano }
+        \new Staff { \DomineTromboneI }
       >>
     }
   }
@@ -79,56 +64,47 @@
     \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \QuiTollisOrgano }
+        \new Staff { \QuiTollisTromboneI }
       >>
     }
   }
   \bookpart {
     \subsection "Quoniam · Cum Sancto Spiritu"
     \addTocEntry
-    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \QuoniamOrgano }
+        \new Staff { \QuoniamTromboneI }
       >>
     }
   }
   \bookpart {
     \section "3" "Credo"
     \addTocEntry
+    \paper { systems-per-page = #6 }
     \score {
       <<
-        \new Staff { \CredoOrgano }
+        \new Staff { \CredoTromboneI }
       >>
     }
   }
   \bookpart {
     \section "4" "Sanctus"
     \addTocEntry
-    \paper { systems-per-page = #4 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SanctusOrgano }
+        \new Staff { \SanctusTromboneI }
       >>
     }
-  }
-  \bookpart {
-    \section "5" "Benedictus"
-    \addTocEntry
-    \paper { systems-per-page = #6 }
-    \score {
-      <<
-        \new Staff { \BenedictusOrgano }
-      >>
-    }
+    \tacet "section" "Benedictus"
   }
   \bookpart {
     \subsection "Osanna"
     \addTocEntry
-    \paper { systems-per-page = #6 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \OsannaOrgano }
+        \new Staff { \OsannaTromboneI }
       >>
     }
   }
@@ -137,7 +113,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
+        \new Staff { \AgnusTromboneI }
       >>
     }
   }
