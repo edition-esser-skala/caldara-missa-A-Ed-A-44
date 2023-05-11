@@ -832,3 +832,108 @@ OsannaTenoreLyrics = \lyricmode {
 
   sis. %67 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*13 %13
+    r4 \mvTr e8\fE^\tuttiE e d4 d8 d
+    d4 d8 h h4 h8 h %15
+    a4. h8 c4( h8[ a)] \noBreak
+    h2 r\fermata \bar "||"
+    \tempoDona c4. c8 c h c([ d)] \noBreak
+    g,4 e'4. d16[ c] d8[ c]
+    h[ c] d4. c16[ h] c8[ h] %20
+    a[ h] c4. h8 a4
+    g8 g([ a h)] c4 r
+    r r8 a( h4) h8 h
+    c[ d] e16[ d c h] a4. a8
+    h[( c] d16[ c h a] g8) c c([ h)] %25
+    c4 r r8 g4( f8)
+    e4 r8 c'16([ h] a4 h8[ a)]
+    g4 r8 h16([ a] g4 a8[ g)]
+    fis4 r8 a( h4 c8[ d])
+    g, h4( c8 d) g, a([ g)] %30
+    g e'16([ d] c8[ a)] d4 r
+    R1*2
+    c4. c8 c h c([ d)]
+    g,4 e'4. d16[ c] d8[ c] %35
+    h[ c] \once \tieDashed d4~ d8[ c16 h] c8[ h]
+    a[ h] c4. h8 a4
+    g r8 h c[ d] e4
+    \once \tieDashed f~ f16[ e d c] h8[ c] d4
+    \once \tieDashed e~ e16[ d c h] a8[ h] c4 %40
+    d h8([ a)] gis c h4
+    c r8 c( h4) h8 e~
+    e d c8.([ h16)] a4 r8 d~
+    d c h8.([ a16)] gis4 r8 f'
+    d4. e16[ d] cis4 d8([ e)] %45
+    f4( e) f r
+    R1*7 %53
+    r2 \once \tieDashed d~
+    d8[ c16 b] c8[ b] a[ b] \once \tieDashed c4~ %55
+    c8[ b16 a] b8[ a] g[ a] \once \tieDashed b4~
+    b8[ a16 g] c8[ b] a[ c f e]
+    d4 e8[ a,16 h] c4. c8
+    c16([ h)] a8 r4 r h~
+    h16[ a] g8 r4 r8 g([ d' f,)] %60
+    g c16([ d] e8[ c)] h4 r
+    r8 c4 c8 c d e([ d)]
+    c4 r r2
+    r4 d8 d d8.([ e16)] f4
+    r c8 c c8.([ d16)] e4 %65
+    r2 r4 g,
+    g g g r\fermata \bar "|." %67 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus De -- i, qui %14
+  tol -- lis pec -- ca -- ta, pec -- %15
+  ca -- ta mun --
+  di:
+  Do -- na no -- bis pa --
+  cem, pa -- _ _
+  _ _ _ _ %20
+  _ _ cem, pa --
+  cem, pa -- cem,
+  pa -- cem, pa --
+  _ _ _ cem,
+  pa -- cem, pa -- %25
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, pa -- cem, pa -- %30
+  cem, pa -- cem,
+
+  do -- na no -- bis pa -- %34
+  cem, pa -- _ _ %35
+  _ _ _
+  _ _ cem, pa --
+  cem, pa -- _ _
+  _ _ _
+  _ _ cem, %40
+  do -- na __ no -- bis pa --
+  cem, pa -- cem, no --
+  bis pa -- cem, no --
+  bis pa -- cem, pa --
+  _ _ _ cem, %45
+  pa -- cem,
+
+  pa -- %54
+  _ _ _ %55
+  _ _ _
+  _ _
+  _ _ _ cem,
+  pa -- cem, pa --
+  cem, pa -- %60
+  cem, pa -- cem,
+  do -- na no -- bis pa --
+  cem,
+  do -- na no -- bis,
+  no -- bis pa -- cem, %65
+  pa --
+  cem, pa -- cem. %67 finis
+}

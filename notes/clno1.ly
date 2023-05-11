@@ -179,3 +179,25 @@ OsannaClarinoI = {
     c2 r\fermata \bar "|." %67 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*16 \noBreak
+    R1\fermata \bar "||"
+    \tempoDona R1*12 %29
+    g''4.\fE g16 g g8 g f8. f16 %30
+    e4 r r2
+    R1*2
+    e4 e8. e16 d8 d e f
+    g4 r r2 %35
+    R1*25 %60
+    r2 r8 d16 e f f g f
+    e4 r r2
+    r8 g16 g g g g g g4 r
+    R1*2 %65
+    r2 g16 f e f d4
+    e d c r\fermata \bar "|." %67 finis
+  }
+}

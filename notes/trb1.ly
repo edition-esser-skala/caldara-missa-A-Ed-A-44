@@ -153,7 +153,7 @@ GloriaTromboneI = {
 
 GratiasTromboneI = {
   \relative c' {
-    \clef treble
+    \clef alto
     \key f \major \time 4/4 \tempoGratias
       \set Score.currentBarNumber = #63
     f4~\fE f16 c b a d8 a b16 d c b
@@ -440,5 +440,72 @@ OsannaTromboneI = {
     d2 e %65
     d1
     e2 r\fermata \bar "|." %67 finis
+  }
+}
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoAgnus
+    \mvTr g'2\pE-\solo g4 g~
+    g8 f16 e f4 f e
+    d4. d8 c4 e8 f
+    g f e4 r2
+    r r4 f8 g %5
+    a g f4 r2
+    e4. a8 a4 gis
+    a r r2
+    R1*5 %13
+    r4 \mvTr g8\fE-\tuttiE g a4 a8 a
+    g4 g8 g e4 e8 e %15
+    e4 e e d \noBreak
+    e2 r\fermata \bar "||"
+    \tempoDona R1*4 %21
+    g4. g8 g e f g
+    c,4 a'4. g16 f g8 f
+    e f g4. f16 e f8 e
+    d e f4. e8 d4 %25
+    c8 c e fis g4 r
+    r r8 e fis4 fis
+    g8 a h16 a g fis e4. e8
+    fis g a16 g fis e d8 g4 fis8
+    g4 r r8 e d4 %30
+    e r8 f16 e d4. h16 a
+    g8 a h e16 d c4. a16 g
+    f8 g a d16 c h8 g' f4
+    e r r8 d e f
+    g4. g8 a fis d4 %35
+    r r8 d g e c4
+    R1
+    r8 d e4 f8 g a16 g f e
+    d4. d8 e f g16 f e d
+    c4. c8 d e f16 e d c %40
+    h4. c16 d e4 f8 e
+    e4 r r8 e h'4
+    a r r8 d, a'4
+    h8 a gis8. a16 h8 e, r4
+    r2 a4. a8 %45
+    a f g a d,4 b'~
+    b8 a16 g a8 g f g a4~
+    a8 b16 a g f e d \once \tieDashed e4~ e8 d16 e
+    f8 a16 g fis4 g16 a b4 a8
+    g4. g8 g^\critnote a g4 %50
+    a8 a16 g f!4 e8 e4 e8
+    \once \tieDashed a4~ a16 g f e d4. d8
+    \once \tieDashed g4~ g16 f e d c8 c d e
+    f4 a4. g16 f g8 b16 a
+    g4 \once \tieDashed g4~ g8 f16 e f8 a16 g %55
+    f4 f4. e16 d e8 g16 f
+    e8 e e16 f g8 c,4 r
+    r8 g' a4 g r
+    a4.^\critnote g8 g4. g8
+    g4. f8 f g f4 %60
+    e8 g g4 g r
+    r8 g4 g8 f f g4
+    g r r g8 g
+    a2 g4 r8 f
+    g2 f4 r8 e %65
+    \once \tieDashed f2~ f8 e d4
+    e d e r\fermata \bar "|." %67 finis
   }
 }

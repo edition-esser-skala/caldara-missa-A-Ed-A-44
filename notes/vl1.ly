@@ -575,3 +575,68 @@ OsannaViolinoI = {
     c r\fermata \bar "|." %67 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    g''2\pE g4 g~
+    g8 f16 e f4 f e
+    d4. d8 c4 e8 f
+    g f e4 r2
+    r r4 f8 g %5
+    a g f4 r2
+    e4. a8 a4 gis
+    a c, d2
+    c4 e2 d4
+    d^\critnote d8 c h h h16 c d8 %10
+    d d d d c d e e
+    fis fis fis fis fis e e e
+    e e dis dis e4 h8\fE h
+    c4 c8 c c4 c8 c
+    h h h d d4 d8 d %15
+    c4. h8 a2 \noBreak
+    gis r\fermata \bar "||"
+    \tempoDona R1*8 %25
+    c4. c8 c h c d
+    g,4 \once \tieDashed e'~ e8 d16 c d8 c
+    h c d4. c16 h c8 h
+    a h c4. h8 a4
+    g8 g g a h c c h %30
+    c4 r8 a h4 h8 h
+    c d e16 d c h a4. a8
+    h c d16 c h a g8 c c h
+    c e e e d4 r
+    r r8 c16 h a4 a8 d %35
+    d fis, g h16 a g4 g8 c
+    c e, fis a16 g fis8 g c4
+    h r r2
+    R1*2 %40
+    e4. e8 e c d e
+    a,4 f'4. e16 d e8 d
+    c d e4. d16 c d8 c
+    h c d4. c16 h c4
+    b2 a4 r %45
+    r2 r4 r8 d
+    cis4 cis d8 e f16 e d c?
+    b2~ b8 a16 g c8 b
+    a16 b c4 b16 a b c d e \once \tieDashed f!4~
+    f8 e16 d e4. f8 f e %50
+    f f16 e d c b a g4. g8
+    c4~ c16 b a g f4. f8
+    b4~ b16 a g f e8 f b4
+    a r r2
+    R1*2 %56
+    r2 c4. c8
+    c h! c d g,4 \once \tieDashed e'~
+    e8 d16 c d8 c h c d4~
+    d8 c16 h c8 h a16 h c4 h8 %60
+    c e16 f g8 e d4 r
+    r8 e16 f g8 b, a h c d
+    e4 r r r8 c
+    \once \tieDashed f2~ f16 e d c h8 d
+    e2~ e16 d c h a8 c %65
+    \once \tieDashed d2~ d16 h c8 c h
+    c4 h c r\fermata \bar "|." %67 finis
+  }
+}

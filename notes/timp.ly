@@ -166,3 +166,25 @@ OsannaTimpani = {
     c2 r\fermata \bar "|." %67 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*16 \noBreak
+    R1\fermata \bar "||"
+    \tempoDona R1*12 %29
+    g4.\fE g16 g g8 c g8. g16 %30
+    c4 r r2
+    R1*2
+    c4 c8. c16 g4. g8
+    c4 r r2 %35
+    R1*25 %60
+    r2 r8 g g g16 g
+    c4 r r2
+    r8 c16 c c c c c g4 r
+    R1*2 %65
+    r2 g8 c g8. g16
+    c4 g c r\fermata \bar "|." %67 finis
+  }
+}
