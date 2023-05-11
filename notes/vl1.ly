@@ -534,3 +534,44 @@ BenedictusViolinoIeII = {
     f4 r r2\fermata \bar "||" %23 finis
   }
 }
+
+OsannaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoOsanna
+      \set Score.currentBarNumber = #24
+    R1*12 %35
+    r2 g'\fE
+    c1
+    h2 g4 g
+    a h c2
+    h c~ %40
+    c h
+    c c4 c
+    h2 a4 h
+    c2 h4 c
+    d2 c %45
+    h1
+    a2 a
+    e'1
+    c2 a4 a
+    h c d2 %50
+    c1
+    h
+    a2 r
+    R1
+    r2 c %55
+    g'!1
+    e2 c4 c
+    d e f2
+    e2 f4 e
+    d2 e4 d %60
+    c2 d4 c
+    h2 e~
+    e d~
+    d c
+    h c~ %65
+    c h
+    c r\fermata \bar "|." %67 finis
+  }
+}

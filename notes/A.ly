@@ -880,3 +880,87 @@ SanctusAltoLyrics = \lyricmode {
   cel -- sis, in ex -- cel -- sis, in ex -- %20
   cel -- sis. %21 finis
 }
+
+OsannaAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #24
+    R1*8 %31
+    r2 \mvTr c\fE^\tuttiE
+    g'1
+    e2 c4 c
+    d( e f2) %35
+    e e
+    e( d)
+    d d4 d
+    e2.( fis4)
+    g2 e %40
+    e( d)
+    c e4 e
+    f!2. d4
+    g2. e4
+    a2. e4 %45
+    d1
+    c2 r
+    r e
+    a1
+    gis2 fis4 gis %50
+    \once \tieDashed a1~
+    a2 gis
+    a c,
+    h( a4 h)
+    c2 a' %55
+    g!1
+    g2 e4 e
+    f( e d2)
+    c1
+    r2 g'4 f %60
+    e2( f4 e)
+    d2 g
+    f1
+    e
+    d2 e %65
+    d1
+    e2 r\fermata \bar "|." %67 finis
+  }
+}
+
+OsannaAltoLyrics = \lyricmode {
+  O -- %32
+  san --
+  na in ex --
+  cel -- %35
+  sis, o --
+  san --
+  na in ex --
+  cel --
+  sis, o -- %40
+  san --
+  na in ex --
+  cel -- _
+  _ _
+  _ _ %45
+  _
+  sis,
+  o --
+  san --
+  na in ex -- %50
+  cel --
+  _
+  sis, o --
+  san --
+  na, o -- %55
+  san --
+  na in ex --
+  cel --
+  sis,
+  in ex -- %60
+  cel --
+  sis, o --
+  san --
+  na
+  in ex -- %65
+  cel --
+  sis. %67 finis
+}

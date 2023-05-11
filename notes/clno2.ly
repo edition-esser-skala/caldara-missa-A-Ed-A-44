@@ -154,3 +154,28 @@ SanctusClarinoII = {
     c8. c16 g8. g16 e4 r\fermata \bar "|." %21 finis
   }
 }
+
+OsannaClarinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoOsanna
+      \set Score.currentBarNumber = #24
+    R1*16 %39
+    r2 \once \tieDashed e'~\fE %40
+    e d
+    e r
+    R1*12 %54
+    R1 %55
+    r2 d
+    c g
+    d'2. d4
+    c2 r
+    R1*2 %61
+    r2 e~
+    e d~
+    d c
+    g c %65
+    g2. g4
+    e2 r\fermata \bar "|." %67 finis
+  }
+}

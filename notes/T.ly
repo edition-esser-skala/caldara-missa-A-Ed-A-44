@@ -755,3 +755,80 @@ SanctusTenoreLyrics = \lyricmode {
   cel -- sis, in ex -- cel -- sis, in ex -- %20
   cel -- sis. %21 finis
 }
+
+OsannaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #24
+    R1*4 %27
+    r2 \mvTr g\fE^\tuttiE
+    c1
+    h2 g4 g %30
+    a( h c2)
+    h c
+    c( d)
+    g, g4 g
+    a2.( h4) %35
+    c2 c4( h)
+    a( g fis2)
+    g h4 h
+    c( h a2)
+    g g %40
+    g1
+    g
+    R1*8 %50
+    r2 a
+    e'1
+    c2 a4 a
+    h( c) d2
+    c4( d) e2 %55
+    d1
+    c
+    R
+    r2 c
+    d4( c) h2 %60
+    c4( h) a2
+    h4( a) g2
+    r g~
+    g g
+    g1~ %65
+    g
+    g2 r\fermata \bar "|." %67 finis
+  }
+}
+
+OsannaTenoreLyrics = \lyricmode {
+  O -- %28
+  san --
+  na in ex -- %30
+  cel --
+  sis, o --
+  san --
+  na in ex --
+  cel -- %35
+  sis, o --
+  san --
+  na in ex --
+  cel --
+  sis, o -- %40
+  san -- na,
+
+  o -- %51
+  san --
+  na in ex --
+  cel -- sis,
+  in __ ex -- %55
+  cel --
+  sis,
+
+  o --
+  san -- na %60
+  in __ ex --
+  cel -- sis,
+  in __
+  ex --
+  cel -- %65
+
+  sis. %67 finis
+}

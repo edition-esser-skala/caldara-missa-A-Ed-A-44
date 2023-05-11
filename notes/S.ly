@@ -877,13 +877,84 @@ SanctusSopranoLyrics = \lyricmode {
   cel -- sis. %21 finis
 }
 
+OsannaSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #24
+    R1*12 %35
+    r2 \mvTr g'\fE^\tuttiE
+    c1
+    h2 g4 g
+    a( h c2)
+    h c %40
+    c( h)
+    c c4 c
+    h2 a4 h
+    c2 h4 c
+    d2 c %45
+    h1
+    a2 a
+    e'1
+    c2 a4 a
+    h c d2 %50
+    c1
+    h
+    a2 r
+    R1
+    r2 c %55
+    g'!1
+    e2 c4 c
+    d( e f2)
+    e2 f4 e
+    d2 e4 d %60
+    c2 d4 c
+    h2 e
+    e d~
+    d c
+    h c %65
+    c( h)
+    c r\fermata \bar "|." %67 finis
+  }
+}
+
+OsannaSopranoLyrics = \lyricmode {
+  O -- %36
+  san --
+  na in ex --
+  cel --
+  sis, o -- %40
+  san --
+  na in ex --
+  cel -- _ _
+  _ _ _
+  _ _ %45
+  _
+  sis, o --
+  san --
+  na in ex --
+  cel -- _ _ %50
+  _
+  _
+  sis,
+
+  o -- %55
+  san --
+  na in ex --
+  cel --
+  sis, in ex --
+  cel -- _ _ %60
+  _ _ _
+  sis, o --
+  san -- _
+  na
+  in ex -- %65
+  cel --
+  sis. %67 finis
+}
 
 
 
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
